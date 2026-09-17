@@ -1,0 +1,383 @@
+{
+ "temi": [
+  {
+   "id": "corse",
+   "nome": "Orari e corse",
+   "icona": "fa-clock",
+   "tipo": "info"
+  },
+  {
+   "id": "biglietti",
+   "nome": "Biglietti e abbonamenti",
+   "icona": "fa-ticket",
+   "tipo": "info"
+  },
+  {
+   "id": "mycard",
+   "nome": "Tessera My Card",
+   "icona": "fa-id-card",
+   "tipo": "mycard"
+  },
+  {
+   "id": "rimborsi",
+   "nome": "Rimborsi e ritardi",
+   "icona": "fa-rotate-left",
+   "tipo": "rimborso"
+  },
+  {
+   "id": "oggetti",
+   "nome": "Oggetti smarriti",
+   "icona": "fa-suitcase",
+   "tipo": "oggetto"
+  },
+  {
+   "id": "reclami",
+   "nome": "Reclami",
+   "icona": "fa-comment-dots",
+   "tipo": "reclamo"
+  },
+  {
+   "id": "fatture",
+   "nome": "Fatture",
+   "icona": "fa-file-invoice",
+   "tipo": "fattura"
+  },
+  {
+   "id": "online",
+   "nome": "Sito di acquisto e app",
+   "icona": "fa-mobile-screen",
+   "tipo": "online"
+  },
+  {
+   "id": "viaggio",
+   "nome": "In viaggio e altre domande",
+   "icona": "fa-person-walking-luggage",
+   "tipo": "generiche"
+  }
+ ],
+ "frequenti": [
+  "vettore",
+  "orari",
+  "dove-comprare",
+  "biglietto-perso",
+  "rimborso",
+  "oggetti",
+  "abbonamento-app",
+  "mycard-non-arriva"
+ ],
+ "per_tipo": {
+  "generiche": [
+   "vettore",
+   "orari",
+   "dove-comprare"
+  ],
+  "info": [
+   "orari",
+   "vettore",
+   "corsa-confermata"
+  ],
+  "rimborso": [
+   "rimborso",
+   "cambio-data"
+  ],
+  "oggetto": [
+   "oggetti"
+  ],
+  "reclamo": [
+   "reclamo"
+  ],
+  "fattura": [
+   "fattura"
+  ],
+  "online": [
+   "sito",
+   "biglietto-perso",
+   "password"
+  ],
+  "mycard": [
+   "mycard-non-arriva",
+   "mycard-duplicato",
+   "abbonamento-app"
+  ]
+ },
+ "domande": [
+  {
+   "id": "vettore",
+   "domanda": "Chi fa la mia corsa? A chi devo scrivere?",
+   "risposta": "COTRAP è un consorzio: le corse le fanno le aziende consorziate, i vettori. Il nome del vettore è sul biglietto: su quello di carta è sotto il logo COTRAP, su quello online alla voce “Gestito da”. Se non hai il biglietto, lo trovi con la <a href=\"pagine/vettore.html\">Guida Scelta Vettore</a>. Per informazioni, rimborsi e oggetti smarriti scrivici: indica la corsa e la richiesta arriva a chi se ne occupa. Telefono e sito di ogni vettore sono in <a href=\"pagine/aziende.html\">Aziende consorziate</a>.",
+   "parole": "vettore vettori azienda aziende compagnia ditta chi gestisce chi fa la corsa a chi scrivo a chi mi rivolgo contatto numero telefono sita stp consorzio competenza sbagliata",
+   "temi": [
+    "corse",
+    "viaggio"
+   ]
+  },
+  {
+   "id": "orari",
+   "domanda": "Dove trovo gli orari?",
+   "risposta": "Sul <a href=\"https://biglietteria.cotrap.it/\">sito di acquisto COTRAP</a> e nell’app COTRAP. Sotto “BIGLIETTO” seleziona “vai al servizio”, scegli partenza, arrivo e giorno, poi “Cerca corsa”. Non serve registrarsi. Se le corse di oggi sono già partite, scegli il giorno dopo. Se la tua corsa non c’è, chiedi gli orari al vettore: i recapiti sono in <a href=\"pagine/aziende.html\">Aziende consorziate</a>.",
+   "parole": "orari orario corse partenze arrivi fermate fermata linea linee quando passa passaggio tabella orari percorso prima ultima corsa domenica festivi",
+   "temi": [
+    "corse"
+   ]
+  },
+  {
+   "id": "corsa-confermata",
+   "domanda": "La corsa che ho comprato è confermata?",
+   "risposta": "Sì. Sul sito di acquisto e nell’app COTRAP si vendono solo corse attive: se hai finito l’acquisto e hai ricevuto il biglietto per email, la corsa è confermata.",
+   "parole": "corsa confermata esiste davvero prenotazione valida sicuro che parte conferma prenotazione posto garantito",
+   "temi": [
+    "corse"
+   ]
+  },
+  {
+   "id": "sciopero",
+   "domanda": "C’è uno sciopero: quali corse sono garantite?",
+   "risposta": "Gli scioperi in programma sono negli <a href=\"https://www.cotrap.it/avvisi/\">Avvisi</a>. In caso di sciopero sono garantite le corse dall’inizio del servizio fino alle 8:29 e dalle 12:00 alle 14:29. Controlla sempre l’avviso: per alcuni vettori le fasce possono essere diverse.",
+   "parole": "sciopero scioperi corse garantite fasce garantite fascia oraria agitazione sindacale servizio minimo",
+   "temi": [
+    "corse"
+   ]
+  },
+  {
+   "id": "aeroporto-bari",
+   "domanda": "Aeroporto di Bari: dove prendo il bus? Aspetta se il volo è in ritardo?",
+   "risposta": "I bus Pugliairbus partono dall’area di sosta davanti all’uscita principale, zona Arrivi. Partono all’orario indicato sul biglietto e non possono aspettare i voli in ritardo: scegli una corsa con un po’ di margine dopo l’atterraggio.",
+   "parole": "aeroporto bari palese volo aereo atterraggio pugliairbus airbus navetta dove si prende fermata arrivi ritardo volo aspetta",
+   "temi": [
+    "corse"
+   ]
+  },
+  {
+   "id": "aeroporto-orari",
+   "domanda": "Quando escono gli orari dei bus per gli aeroporti?",
+   "risposta": "Gli orari dei collegamenti con gli aeroporti cambiano con le stagioni. Appena sono pronti li trovi sul <a href=\"https://biglietteria.cotrap.it/\">sito di acquisto COTRAP</a> e negli <a href=\"https://www.cotrap.it/avvisi/\">Avvisi</a>.",
+   "parole": "orari aeroporto aeroporti estate inverno nuovi orari quando escono pugliairbus aggiornamento estivi invernali brindisi foggia",
+   "temi": [
+    "corse"
+   ]
+  },
+  {
+   "id": "dove-comprare",
+   "domanda": "Dove compro il biglietto?",
+   "risposta": "Online, sul <a href=\"https://biglietteria.cotrap.it/\">sito di acquisto COTRAP</a> o con l’app: i passi sono in <a href=\"pagine/come-acquistare.html\">Come acquistare</a>. Oppure di persona, in biglietteria o in un punto vendita: per le linee COTRAP nei <a href=\"pagine/titoli.html#punti-vendita\">punti vendita delle linee COTRAP</a>, per le altre corse in quelli del vettore (<a href=\"pagine/aziende.html\">Aziende consorziate</a>). A bordo il biglietto non è sempre disponibile e costa di più: compralo prima di partire.",
+   "parole": "comprare acquistare biglietto biglietti dove si compra punto vendita punti vendita rivendita tabaccheria tabacchi bar edicola agenzia app a bordo autista",
+   "temi": [
+    "biglietti"
+   ]
+  },
+  {
+   "id": "prezzi",
+   "domanda": "Quanto costa il biglietto o l’abbonamento?",
+   "risposta": "Il prezzo dipende dalla tratta: lo vedi sul <a href=\"https://biglietteria.cotrap.it/\">sito di acquisto COTRAP</a> o nell’app cercando la corsa, prima di pagare. Il prezzo dell’abbonamento lo vedi dopo aver fatto l’accesso.",
+   "parole": "prezzo prezzi costo costa quanto costa tariffa tariffe euro biglietto abbonamento pagare",
+   "temi": [
+    "biglietti"
+   ]
+  },
+  {
+   "id": "biglietto-perso",
+   "domanda": "Ho perso il biglietto comprato online: come lo ritrovo?",
+   "risposta": "Entra nel sito di acquisto COTRAP o nell’app con la stessa email dell’acquisto e apri “I miei acquisti”: lì puoi mostrarlo, stamparlo o salvarlo. Se hai comprato senza account, registrati con la stessa email: trovi anche i biglietti già comprati. Se usi Gmail, apri l’email più recente: potrebbe aprirsi un biglietto vecchio.",
+   "parole": "perso biglietto non trovo email mail pdf ristampare stampare recuperare cancellato scaricare di nuovo non arrivata conferma",
+   "temi": [
+    "online",
+    "biglietti"
+   ]
+  },
+  {
+   "id": "cambio-data",
+   "domanda": "Posso cambiare data o farmi rimborsare un biglietto che non uso?",
+   "risposta": "No. Il biglietto comprato online vale solo per il giorno, l’ora e la corsa che riporta: se non lo usi, non puoi cambiarlo né farti rimborsare. Solo sui bus Pugliairbus, da e per gli aeroporti, puoi cambiarlo online fino a 30 minuti prima della partenza, pagando 1 €, se il sito dove l’hai comprato lo permette; a bordo non si può.",
+   "parole": "cambiare data cambio data cambio orario spostare biglietto annullare disdire cancellare prenotazione riconvalida persa la corsa non sono partito rimborso biglietto non usato",
+   "temi": [
+    "biglietti",
+    "rimborsi"
+   ]
+  },
+  {
+   "id": "screenshot",
+   "domanda": "Posso fare lo screenshot del biglietto o darlo a un’altra persona?",
+   "risposta": "No. L’app blocca gli screenshot per evitare copie dei biglietti: mostra il biglietto dall’app, in “I miei acquisti”, o dal PDF ricevuto per email. Il biglietto è personale e non si può cedere a un’altra persona.",
+   "parole": "screenshot schermata foto biglietto app bloccato condividere inviare mandare girare dare prestare altra persona figlio figlia moglie marito amico parente cedere intestato",
+   "temi": [
+    "online",
+    "biglietti"
+   ]
+  },
+  {
+   "id": "abbonamento-come",
+   "domanda": "Come compro l’abbonamento?",
+   "risposta": "Ti serve la tessera My Card (<a href=\"pagine/mycard.html\">come si richiede</a>). Poi compri l’abbonamento online, sul sito di acquisto COTRAP o con l’app, oppure in biglietteria o in un punto vendita del vettore. Online: entra nel tuo account, sotto “ABBONAMENTO” seleziona “vai al servizio” e scegli vettore, partenza, arrivo, tipo e periodo. Se il vettore non c’è, compra l’abbonamento nei suoi punti vendita. Tutti i passi sono in <a href=\"pagine/come-acquistare.html\">Come acquistare</a>.",
+   "parole": "abbonamento abbonamenti mensile settimanale comprare fare rinnovare rinnovo pendolare lavoratore online agenzia punto vendita ridotto ordinario",
+   "temi": [
+    "biglietti"
+   ]
+  },
+  {
+   "id": "abbonamento-app",
+   "domanda": "Ho dimenticato o perso la tessera: posso usare l’abbonamento?",
+   "risposta": "Sì, se l’hai comprato online: apri l’app COTRAP, vai in “I miei acquisti” e seleziona l’abbonamento. A ogni salita avvicina il QR code al lettore in basso della validatrice: quando lo schermo diventa verde, la corsa è convalidata.",
+   "parole": "tessera dimenticata persa lasciata a casa sbiadita rovinata rotta app abbonamento telefono cellulare qr code mostrare usare",
+   "temi": [
+    "mycard",
+    "biglietti"
+   ]
+  },
+  {
+   "id": "corse-abbonamento",
+   "domanda": "Quante corse ha l’abbonamento? Come lo convalido?",
+   "risposta": "Il mensile ordinario ha 52 corse, il mensile ridotto 42, il settimanale ordinario 12 e il settimanale ridotto 10. A ogni salita convalida l’abbonamento alla validatrice: avvicina la tessera My Card al lettore centrale o, se l’hai comprato online, il QR code dell’app COTRAP al lettore in basso. Finite le corse, ti serve un nuovo titolo di viaggio.",
+   "parole": "corse abbonamento quante convalidare convalida validatrice obliteratrice timbrare obliterare scalare corse rimaste finite esaurite",
+   "temi": [
+    "biglietti"
+   ]
+  },
+  {
+   "id": "mycard",
+   "domanda": "Cos’è la tessera My Card, quanto costa e come la richiedo?",
+   "risposta": "È la tessera personale che serve per gli abbonamenti. Si richiede online su mycard.cotrap.eu: registrati, scegli il vettore con cui viaggi, carica documento d’identità e foto e paga 10 €, con la carta o con un codice comprato in un punto vendita. Ricevi per email una ricevuta provvisoria, che vale come la tessera finché non arriva quella vera, per posta. Per S.T.P. Bari la tessera si chiede su mycard.stpspa.it; se il tuo vettore non è su My Card, chiedi la tessera al vettore. Tutto in <a href=\"pagine/mycard.html\">My Card</a>.",
+   "parole": "my card mycard tessera elettronica richiedere fare la tessera costo tessera 10 euro registrazione vettore di riferimento ricevuta provvisoria",
+   "temi": [
+    "mycard"
+   ]
+  },
+  {
+   "id": "mycard-non-arriva",
+   "domanda": "Ho richiesto la My Card ma non mi è arrivata",
+   "risposta": "La tessera arriva per posta e può volerci del tempo. Intanto usa la ricevuta provvisoria ricevuta per email: vale come la tessera, anche per comprare e usare l’abbonamento. Per sapere a che punto è la spedizione contatta l’assistenza My Card: <a href=\"https://assistenza.tecbus.eu/submit_ticket/next/tessere-elettroniche\">richiesta online</a>, oppure telefono e WhatsApp 328 803 2801, dal lunedì al venerdì non festivi, dalle 9 alle 13.",
+   "parole": "tessera non arriva non è arrivata quanto tempo tempi quanto ci vuole spedizione posta ritardo consegna attesa ricevuta provvisoria mesi my card assistenza",
+   "temi": [
+    "mycard"
+   ]
+  },
+  {
+   "id": "mycard-duplicato",
+   "domanda": "Ho perso la tessera My Card: come ne ho un’altra?",
+   "risposta": "Chiedi il duplicato su mycard.cotrap.eu, dalla tua area personale: costa 10 € e arriva per posta all’indirizzo indicato. Intanto, se hai comprato l’abbonamento online, puoi usarlo dall’app COTRAP, in “I miei acquisti”.",
+   "parole": "tessera persa smarrita rubata furto duplicato rifare tessera nuova tessera my card persa",
+   "temi": [
+    "mycard"
+   ]
+  },
+  {
+   "id": "rimborso",
+   "domanda": "Il bus è in ritardo o non è passato: ho diritto al rimborso?",
+   "risposta": "Sì, se la corsa è cancellata o parte con più di 60 minuti di ritardo (30 minuti in città), tranne in caso di scioperi, calamità ed emergenze imprevedibili. Ti rimborsano il prezzo del biglietto; per l’abbonamento, la quota di un giorno. Puoi chiederlo durante il viaggio o subito dopo, mostrando il biglietto, oppure scrivendoci: la richiesta arriva a chi se ne occupa.",
+   "parole": "rimborso rimborsare ritardo in ritardo corsa saltata cancellata soppressa non è passato non passato non è arrivato bus non passato soldi indietro risarcimento aspettato",
+   "temi": [
+    "rimborsi"
+   ]
+  },
+  {
+   "id": "reclamo",
+   "domanda": "Come faccio un reclamo?",
+   "risposta": "Entro 3 mesi dal viaggio: scrivici o segui la pagina <a href=\"pagine/reclami.html\">Reclami</a>. Indica i tuoi dati, il giorno, l’ora, la partenza e l’arrivo della corsa e il numero del biglietto. Entro un mese ricevi l’esito, entro tre mesi la risposta definitiva.",
+   "parole": "reclamo reclami lamentela protesta segnalazione disservizio autista maleducato sgarbato scortese bus sporco non si è fermato fermata saltata comportamento aria condizionata",
+   "temi": [
+    "reclami"
+   ]
+  },
+  {
+   "id": "fattura",
+   "domanda": "Come chiedo la fattura?",
+   "risposta": "Scrivici indicando il numero del biglietto, il codice fiscale o la partita IVA e il codice destinatario o la PEC.",
+   "parole": "fattura fatture fattura elettronica partita iva codice destinatario pec rimborso spese nota spese",
+   "temi": [
+    "fatture"
+   ]
+  },
+  {
+   "id": "oggetti",
+   "domanda": "Ho perso o dimenticato un oggetto sul bus",
+   "risposta": "Gli oggetti trovati li conserva il vettore della corsa. Scrivici indicando il giorno, l’ora, la partenza e l’arrivo della corsa e com’è l’oggetto: la richiesta arriva al vettore. Sulle linee COTRAP gli oggetti trovati restano almeno 30 giorni in sede, a Bari in via Bruno Buozzi 36, dal lunedì al sabato dalle 7:45 alle 14:00.",
+   "parole": "perso dimenticato oggetto oggetti smarrito smarriti borsa zaino telefono cellulare portafoglio occhiali giacca chiavi documenti lasciato sul bus ritrovare recuperare bagaglio smarrito valigia persa",
+   "temi": [
+    "oggetti"
+   ]
+  },
+  {
+   "id": "bambini",
+   "domanda": "I bambini pagano? Posso portare il passeggino?",
+   "risposta": "I bambini sotto i 10 anni viaggiano gratis se sono accompagnati da un adulto e non occupano un posto a sedere; ogni adulto può portarne gratis uno solo. Il passeggino viaggia gratis, chiuso e sistemato in modo da non dare fastidio.",
+   "parole": "bambino bambini figlio figli neonato minori minorenne età gratis pagano passeggino carrozzina",
+   "temi": [
+    "viaggio"
+   ]
+  },
+  {
+   "id": "bagagli",
+   "domanda": "Quanti bagagli posso portare?",
+   "risposta": "Gratis: una borsa personale e un bagaglio fino a 95 cm (somma dei tre lati) e 10 kg. Un secondo bagaglio, se c’è posto nel bagagliaio, paga come un biglietto della prima fascia di chilometri. Non puoi portare bombole di gas, materiali infiammabili o pericolosi, oggetti fragili o preziosi, vino e olio; i bagagli devono essere ben chiusi. Il bambino che viaggia gratis non ha il bagaglio gratis.",
+   "parole": "bagaglio bagagli valigia valigie trolley zaino borsa peso dimensioni stiva bagagliaio secondo bagaglio chili",
+   "temi": [
+    "viaggio"
+   ]
+  },
+  {
+   "id": "bici",
+   "domanda": "Posso portare la bici o il monopattino?",
+   "risposta": "Sì, come secondo bagaglio: se c’è posto nel bagagliaio, pagando un biglietto della prima fascia di chilometri. Sui bus senza bagagliaio solo bici e monopattini pieghevoli, chiusi nella custodia, esclusi quelli elettrici e le bici a pedalata assistita, e solo se il personale di bordo ritiene che non diano fastidio agli altri passeggeri.",
+   "parole": "bici bicicletta biciclette monopattino monopattini pieghevole elettrico pedalata assistita",
+   "temi": [
+    "viaggio"
+   ]
+  },
+  {
+   "id": "animali",
+   "domanda": "Posso portare il cane o il gatto?",
+   "risposta": "Sì, se è piccolo e sta in un trasportino chiuso fino a 95 cm (somma dei tre lati): paga come te, ma non ha un posto e il trasportino non va sul sedile. I cani guida per non vedenti viaggiano gratis, con la museruola. Sui bus Pugliairbus l’animale può pesare al massimo 3 kg e il trasportino misurare al massimo 50 × 35 × 50 cm.",
+   "parole": "cane cani gatto gatti animale animali trasportino cagnolino museruola cane guida",
+   "temi": [
+    "viaggio"
+   ]
+  },
+  {
+   "id": "fermate",
+   "domanda": "L’autobus non si è fermato alla fermata: perché?",
+   "risposta": "Tranne i capolinea, le fermate sono a richiesta: alla fermata, vicino alla palina, fai segno all’autista in tempo; a bordo prenota la fermata prima di arrivarci. L’autobus si ferma solo alle fermate segnalate. Se avevi fatto segno e non si è fermato, puoi fare un reclamo: segui la pagina <a href=\"pagine/reclami.html\">Reclami</a>.",
+   "parole": "fermata fermate non si è fermato non si ferma saltato la fermata a richiesta fare segno autista prenotare palina salire scendere tirato dritto passato senza fermarsi",
+   "temi": [
+    "viaggio",
+    "reclami"
+   ]
+  },
+  {
+   "id": "disabili",
+   "domanda": "Persone con disabilità: chi viaggia gratis e come si fa?",
+   "risposta": "Se hai i requisiti di legge viaggi gratis con tutti i vettori: per esempio invalidi civili con almeno l’80%, invalidi del lavoro con almeno il 70%, persone prive della vista, invalidi di guerra e per servizio di 1ª, 2ª e 3ª categoria. Richiedi la tessera online su mycard.cotrap.eu (per S.T.P. Bari su mycard.stpspa.it) con il certificato di invalidità con la percentuale, la foto e il documento d’identità. I biglietti gratuiti si ritirano nei punti vendita o negli uffici del vettore: al massimo 2 al giorno, più 2 per l’accompagnatore. Requisiti e passi: <a href=\"pagine/invalidita.html\">Tessere per invalidità</a>.",
+   "parole": "disabile disabili disabilità invalido invalidi invalidità 104 handicap accompagnatore gratis gratuito tessera invalidi cieco non vedente sordo carrozzina percentuale",
+   "temi": [
+    "viaggio",
+    "mycard"
+   ]
+  },
+  {
+   "id": "disabili-respinta",
+   "domanda": "La richiesta della tessera per invalidità è stata respinta",
+   "risposta": "Di solito manca il certificato di invalidità con la percentuale (la Disability Card non basta) oppure la foto non va bene: serve una fototessera recente, a colori, con il volto ben visibile. Entra su mycard.cotrap.eu, nella tua area personale, e carica il documento o la foto giusti. Per aiuto: assistenza My Card, telefono e WhatsApp 328 803 2801, dal lunedì al venerdì non festivi, dalle 9 alle 13.",
+   "parole": "tessera respinta rifiutata richiesta respinta documento sbagliato foto non valida certificato percentuale correggere pratica invalidi errore",
+   "temi": [
+    "mycard",
+    "viaggio"
+   ]
+  },
+  {
+   "id": "sito",
+   "domanda": "Non riesco a comprare online: il sito o l’app non funzionano",
+   "risposta": "Prova così: usa un browser aggiornato (Chrome, Firefox, Edge o Safari), consenti i pop-up per il sito, controlla la connessione e svuota la cache. Aggiorna l’app all’ultima versione. Guarda anche la <a href=\"https://www.youtube.com/watch?v=TuPAtOghZ4o\">videoguida</a>. Se non funziona ancora, scrivici indicando telefono o computer, browser o versione dell’app, cosa hai fatto e cosa succede.",
+   "parole": "sito non funziona app non funziona non carica errore pagamento non va a buon fine transazione fallita carrello vuoto bloccato impossibile comprare online problema acquisto crash si chiude",
+   "temi": [
+    "online"
+   ]
+  },
+  {
+   "id": "password",
+   "domanda": "Non riesco a cambiare la password",
+   "risposta": "Di solito il browser blocca la finestra che si apre per il cambio: consenti i pop-up per il sito di acquisto (in Chrome: icona a sinistra dell’indirizzo, “Pop-up e reindirizzamenti”, “Consenti”). Oppure prova con un altro browser, o dal computer invece che dall’app.",
+   "parole": "password cambiare password modificare password cambio password non riesco torna alla pagina iniziale login accesso account",
+   "temi": [
+    "online"
+   ]
+  }
+ ]
+}

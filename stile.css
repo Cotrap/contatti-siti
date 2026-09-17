@@ -1,0 +1,201 @@
+/* Proposte per i siti COTRAP, SITA Sud e Marozzi */
+:root{
+  --oliva:#757A43; --oliva-scuro:#4F532B; --oliva-chiaro:#EEF0E1;
+  --inchiostro:#1E2019; --testo:#2B2D25; --grigio:#5E6055; --linea:#D9DBC9;
+  --fondo:#F4F4EE; --carta:#FFFFFF;
+  --rosso:#B42318; --rosso-fondo:#FDEDEB; --rosso-linea:#F1B8B0;
+  --verde:#2E6B34; --verde-fondo:#E8F3E8; --verde-linea:#A9D3AC;
+  --sita:#1F4E9A; --marozzi:#A11D2B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fondo);color:var(--testo);font:19px/1.6 Lato,"Segoe UI",Arial,sans-serif}
+a{color:var(--oliva-scuro)}
+h1,h2,h3{color:var(--inchiostro);line-height:1.2;text-wrap:balance}
+button{font:inherit}
+
+/* testata */
+.testata{background:var(--oliva);color:#fff}
+.testata .dentro{max-width:1400px;margin:0 auto;padding:12px 40px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.marchio{color:#fff;text-decoration:none;font-weight:900;font-size:21px}
+.menu{display:flex;gap:6px;flex-wrap:wrap}
+.menu a{color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:6px 14px;border-radius:20px;border:2px solid rgba(255,255,255,.4)}
+.menu a:hover{background:rgba(255,255,255,.15)}
+.menu a.attivo{background:#fff;color:var(--inchiostro);border-color:#fff}
+.menu .n{opacity:.75;margin-right:5px}
+
+main{max-width:1400px;margin:0 auto;padding:30px 40px 90px}
+.briciole{font-size:16px;color:var(--grigio);margin:0 0 18px}
+
+/* home */
+.apertura{padding:26px 0 30px}
+.apertura h1{font-size:48px;margin:0 0 10px;font-weight:900}
+.apertura p{font-size:23px;margin:0;color:var(--grigio)}
+.percorso{list-style:none;margin:0;padding:0;position:relative}
+.percorso::before{content:"";position:absolute;left:34px;top:30px;bottom:30px;width:4px;background:var(--linea);border-radius:2px}
+.tappa{position:relative;margin:0 0 18px}
+.tappa>a{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:24px;align-items:center;background:var(--carta);border:2px solid var(--linea);border-radius:14px;padding:22px 26px 22px 0;text-decoration:none;color:var(--testo)}
+.tappa>a:hover{border-color:var(--oliva);box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.tappa .numero{justify-self:center;display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:50%;background:var(--oliva);color:#fff;font-weight:900;font-size:24px;position:relative;z-index:1;margin-left:10px}
+.tappa h2{margin:0 0 8px;font-size:28px}
+.tappa p{margin:0 0 4px}
+.tappa .azione{white-space:nowrap;font-weight:900;color:var(--oliva-scuro);padding:12px 20px;border:2px solid var(--oliva);border-radius:26px}
+.tappa>a:hover .azione{background:var(--oliva);color:#fff}
+.etichetta-oggi,.etichetta-domani{display:inline-block;font-size:14px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;border-radius:5px;padding:1px 8px;margin-right:8px;vertical-align:1px}
+.etichetta-oggi{background:var(--rosso-fondo);color:var(--rosso)}
+.etichetta-domani{background:var(--verde-fondo);color:var(--verde)}
+
+/* pagina di una proposta */
+.titolo-proposta{margin:0 0 24px}
+.titolo-proposta .sopra{margin:0 0 4px;font-size:15px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--oliva-scuro)}
+.titolo-proposta h1{margin:0 0 8px;font-size:44px;font-weight:900}
+.titolo-proposta .obiettivo{margin:0;font-size:22px;color:var(--grigio);max-width:70ch}
+.confronto{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:0 0 30px}
+.confronto>div{border-radius:14px;padding:20px 24px;background:var(--carta)}
+.confronto h2{margin:0 0 10px;font-size:22px}
+.confronto ul{margin:0;padding-left:22px}
+.confronto li{margin:0 0 8px}
+.confronto .oggi{border:2px solid var(--rosso-linea)}
+.confronto .oggi h2{color:var(--rosso)}
+.confronto .domani{border:2px solid var(--verde-linea)}
+.confronto .domani h2{color:var(--verde)}
+.sezione{background:var(--carta);border:1px solid var(--linea);border-radius:14px;padding:26px 30px;margin:0 0 26px}
+.sezione>h2{margin:0 0 6px;font-size:30px}
+.sezione>.sotto{margin:0 0 20px;color:var(--grigio)}
+.numeri{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.numeri div{background:var(--oliva-chiaro);border-radius:12px;padding:16px 18px}
+.numeri b{display:block;font-size:34px;font-weight:900;color:var(--oliva-scuro);line-height:1.1}
+.bottone{display:inline-block;font-weight:900;color:var(--oliva-scuro);text-decoration:none;padding:10px 20px;border:2px solid var(--oliva);border-radius:26px}
+.bottone:hover{background:var(--oliva);color:#fff}
+.serve ul{margin:0;padding-left:22px}
+.serve li{margin:0 0 8px}
+.avanti{display:flex;justify-content:space-between;gap:12px;margin:30px 0 0}
+.avanti a{display:inline-block;background:var(--carta);border:2px solid var(--oliva);border-radius:26px;padding:10px 22px;font-weight:900;text-decoration:none;color:var(--inchiostro)}
+.avanti a:hover{background:var(--oliva);color:#fff}
+table.tabella{border-collapse:collapse;width:100%;font-size:17px}
+.tabella th,.tabella td{border:1px solid var(--linea);padding:10px 12px;text-align:left;vertical-align:top}
+.tabella th{background:#F0F1E7}
+.tab-scroll{overflow-x:auto}
+.rosso{color:var(--rosso);font-weight:700}
+.pv-link{background:none;border:0;padding:0;color:var(--oliva-scuro);text-decoration:underline;cursor:pointer;font-weight:700}
+
+/* finestra del browser che contiene la prova */
+.browser{border:1px solid #C9CBB8;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.browser .barra{display:flex;align-items:center;gap:14px;background:#ECEDE6;border-bottom:1px solid #D5D7C6;padding:9px 14px}
+.browser .pallini{display:flex;gap:6px}
+.browser .pallini i{display:block;width:12px;height:12px;border-radius:50%;background:#C9CBB8}
+.browser .indirizzo{flex:1;background:#fff;border-radius:18px;padding:4px 14px;font-size:15px;color:var(--grigio)}
+.browser .schermo{padding:28px 32px}
+.schede-siti{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.schede-siti button{border:2px solid var(--linea);background:var(--carta);border-radius:24px;padding:9px 18px;font-weight:900;cursor:pointer;color:var(--inchiostro)}
+.schede-siti button[aria-selected=true]{background:var(--inchiostro);color:#fff;border-color:var(--inchiostro)}
+
+/* resoconto dei controlli */
+.email{border:1px solid #C9CBB8;border-radius:12px;background:#fff;overflow:hidden}
+.email .intest{background:#F3F4EC;border-bottom:1px solid #D9DBC9;padding:14px 22px;font-size:17px}
+.email .intest p{margin:0 0 2px}
+.email .corpo{padding:18px 22px}
+.email details{border-top:1px solid #E6E7DA;padding:10px 0}
+.email details:first-of-type{border-top:0}
+.email summary{cursor:pointer;font-weight:900;font-size:20px}
+.email summary .conta{display:inline-block;min-width:34px;text-align:center;border-radius:14px;background:var(--rosso-fondo);color:var(--rosso);padding:0 8px;margin-left:8px;font-size:16px}
+.email summary .conta.ok{background:var(--verde-fondo);color:var(--verde)}
+.email ul{margin:8px 0 4px;padding-left:22px}
+.email li{margin:0 0 6px}
+
+/* elenco delle pagine */
+.pagine-griglia{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.pagina-scheda{display:block;background:var(--carta);border:2px solid var(--linea);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--testo)}
+.pagina-scheda:hover{border-color:var(--oliva);box-shadow:0 6px 18px rgba(0,0,0,.07)}
+.pagina-scheda h3{margin:0 0 6px;font-size:22px}
+.pagina-scheda p{margin:0 0 4px;font-size:17px}
+.pagina-scheda .conti{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.pagina-scheda .conti span{font-size:15px;font-weight:900;border-radius:14px;padding:2px 10px}
+.pagina-scheda .c-err{background:var(--rosso-fondo);color:var(--rosso)}
+.pagina-scheda .c-mod{background:var(--verde-fondo);color:var(--verde)}
+.pagina-scheda .apri{display:inline-block;margin-top:10px;font-weight:900;color:var(--oliva-scuro)}
+
+@media (max-width:980px){
+  main{padding:22px 18px 70px}
+  .testata .dentro{padding:12px 18px}
+  .confronto,.numeri{grid-template-columns:1fr}
+  .tappa>a{grid-template-columns:60px minmax(0,1fr);padding-right:18px}
+  .tappa .azione{grid-column:2;justify-self:start}
+  .percorso::before{left:28px}
+  .apertura h1{font-size:34px}.titolo-proposta h1{font-size:34px}
+  .browser .schermo{padding:18px}
+}
+.browser .prova-titolo{margin:4px 0 12px;font-size:22px;font-weight:400;color:#2B2D25}
+.browser .prova-titolo+.pv-domande{margin-bottom:34px}
+
+/* proposta unica (22/09/2026) */
+.titolo-pagina{padding:18px 0 22px}
+.titolo-pagina h1{margin:0 0 8px;font-size:42px;font-weight:900}
+.titolo-pagina p{margin:0;font-size:21px;color:var(--grigio);max-width:70ch}
+.blocco{background:var(--carta);border:1px solid var(--linea);border-radius:16px;padding:22px 26px;margin:0 0 20px}
+.blocco>h2{margin:0 0 14px;font-size:28px}
+.blocco-testa{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+.blocco-testa h2{margin:0;font-size:28px}
+.blocco .breve{margin:0 0 14px;font-size:18px;color:var(--grigio)}
+.pagine-lista{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.pagine-lista a{display:flex;flex-direction:column;gap:2px;height:100%;padding:12px 14px;border:2px solid var(--linea);border-radius:12px;text-decoration:none;color:var(--testo)}
+.pagine-lista a:hover{border-color:var(--oliva);box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.pagine-lista b{font-size:18px;color:var(--inchiostro)}
+.pagine-lista span{font-size:15px;color:var(--grigio)}
+.due{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.due .blocco{margin:0 0 20px}
+.tre{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:0 0 20px}
+.tre a{display:flex;flex-direction:column;gap:8px;background:var(--carta);border:2px solid var(--linea);border-radius:16px;padding:20px 22px;text-decoration:none;color:var(--testo)}
+.tre a:hover{border-color:var(--oliva);box-shadow:0 6px 18px rgba(0,0,0,.07)}
+.tre h2{margin:0;font-size:24px}
+.tre p{margin:0;font-size:17px;color:var(--grigio)}
+.tre .vai{margin-top:auto;font-weight:900;color:var(--oliva-scuro)}
+.flusso{display:grid;grid-template-columns:minmax(0,1fr) 40px minmax(0,1.25fr);margin:0 0 10px}
+.flusso .da,.flusso .a{border-radius:12px;padding:10px 14px}
+.flusso .da{background:#F3F4EC;font-weight:700;display:flex;align-items:center}
+.flusso .freccia{display:flex;align-items:center;justify-content:center;color:var(--oliva);font-size:24px;font-weight:900}
+.flusso .a{background:var(--verde-fondo);border:1px solid var(--verde-linea)}
+.flusso .a b{display:block;color:var(--inchiostro)}
+.flusso .a span{display:block;font-size:15px;color:var(--grigio)}
+.esempi{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.esempio{border:2px solid var(--linea);border-radius:14px;padding:14px 16px 8px;background:#fff}
+.esempio h3{margin:4px 0 8px;font-size:20px}
+.esempio ol{margin:0;padding-left:22px;font-size:17px}
+.esempio li{margin:0 0 6px}
+.esempio .sito{display:inline-block;font-size:13px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;border-radius:10px;padding:1px 8px;background:var(--oliva-chiaro);color:var(--oliva-scuro)}
+.posta{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.dida{margin:0 0 8px;font-size:16px;font-weight:700;color:var(--grigio)}
+.posta .email+.dida,.posta .tab-scroll+.dida{margin:10px 0 0}
+.email .corpo p{margin:0 0 6px;font-size:17px}
+.archivio{font-size:16px!important}
+.passi-tre{list-style:none;counter-reset:passo;margin:0 0 20px;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.passi-tre li{counter-increment:passo;background:var(--carta);border:2px solid var(--linea);border-radius:14px;padding:14px 16px 14px 58px;position:relative}
+.passi-tre li::before{content:counter(passo);position:absolute;left:14px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--oliva);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center}
+.passi-tre b{display:block;font-size:19px}
+.passi-tre span{font-size:16px;color:var(--grigio)}
+@media (max-width:980px){.due,.tre,.passi-tre,.posta{grid-template-columns:minmax(0,1fr)}.titolo-pagina h1{font-size:32px}}
+.email .intest p,.email .corpo p{overflow-wrap:anywhere}
+@media (max-width:700px){.flusso{grid-template-columns:1fr}.flusso .freccia{height:30px;transform:rotate(90deg)}.blocco{padding:18px 16px}}
+
+/* sistema unificato (22/09/2026) */
+.percorso-clienti{list-style:none;counter-reset:pc;margin:0 0 20px;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.percorso-clienti li{counter-increment:pc;position:relative;min-height:116px;padding:18px 16px 16px 58px;background:var(--inchiostro);color:#fff;border-radius:14px}
+.percorso-clienti li::before{content:counter(pc);position:absolute;left:16px;top:18px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--oliva);font-weight:900}
+.percorso-clienti b,.percorso-clienti span{display:block}.percorso-clienti b{font-size:19px;line-height:1.2}.percorso-clienti span{margin-top:6px;color:#e4e7da;font-size:15px}
+.percorso-clienti.compatto li{min-height:98px}
+.siti-sistema{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.siti-sistema article{display:flex;flex-direction:column;align-items:flex-start;padding:18px;border:2px solid var(--linea);border-radius:14px;background:#fff}
+.siti-sistema h3{margin:8px 0 6px;font-size:22px}.siti-sistema p{margin:0 0 16px;font-size:17px;color:var(--grigio)}.siti-sistema .bottone{margin-top:auto}
+.etichetta{display:inline-block;padding:3px 9px;border-radius:12px;background:var(--oliva-chiaro);color:var(--oliva-scuro);font-size:13px;font-weight:900;letter-spacing:.05em;text-transform:uppercase}
+.bottone.secondario{background:#fff;color:var(--inchiostro);border:2px solid var(--oliva)}
+.percorso-esempio{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.percorso-esempio div{position:relative;padding:14px 28px 14px 14px;border:1px solid var(--linea);background:#fff}
+.percorso-esempio div:first-child{border-radius:12px 0 0 12px}.percorso-esempio div:last-child{border-radius:0 12px 12px 0}
+.percorso-esempio div:not(:last-child)::after{content:'→';position:absolute;right:7px;top:50%;transform:translateY(-50%);color:var(--oliva);font-weight:900}
+.percorso-esempio b,.percorso-esempio span{display:block}.percorso-esempio span{margin-top:4px;font-size:15px;color:var(--grigio)}
+.tutte-pagine>summary{cursor:pointer;font-size:25px;font-weight:900}.tutte-pagine>summary span{margin-left:8px;color:var(--grigio);font-size:16px;font-weight:700}.tutte-pagine[open]>summary{margin-bottom:16px}
+.controllo-breve{display:flex;align-items:center;justify-content:space-between;gap:18px}.controllo-breve h2{margin:0 0 4px}.controllo-breve p{margin:0;color:var(--grigio);font-size:17px}
+.schema-uguale>div{display:flex;flex-wrap:wrap;gap:8px}.schema-uguale span{padding:7px 11px;border-radius:14px;background:var(--oliva-chiaro);font-weight:900}.schema-uguale p{margin:12px 0 0;color:var(--grigio)}
+.stato{display:inline-block;padding:3px 8px;border-radius:12px;font-size:13px;font-weight:900;white-space:nowrap}.stato.nuova{background:#fff0d5;color:#8a5000}.stato.assegnata{background:#e6eefc;color:#2454a6}.stato.chiusa{background:var(--verde-fondo);color:var(--verde)}
+@media (max-width:980px){.percorso-clienti,.siti-sistema,.percorso-esempio{grid-template-columns:1fr 1fr}.percorso-esempio div:first-child,.percorso-esempio div:last-child{border-radius:0}.percorso-esempio div::after{display:none}}
+@media (max-width:620px){.percorso-clienti,.siti-sistema,.percorso-esempio{grid-template-columns:1fr}.controllo-breve{align-items:flex-start;flex-direction:column}}

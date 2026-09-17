@@ -1,0 +1,920 @@
+[
+ {
+  "nome": "Acapt Nord Gargano",
+  "ids": [
+   "7"
+  ],
+  "sito": "https://www.acapt.it/",
+  "telefoni": [
+   {
+    "numero": "0882 643811",
+    "per": null
+   }
+  ],
+  "tel": "0882 643811",
+  "prima": null,
+  "unisci": false,
+  "mc": "Acapt Nord Gargano",
+  "pv": {
+   "url": "https://www.acapt.it/biglietterie/",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.acapt.it/tariffe-def-2/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [
+   {
+    "url": "https://www.acapt.it/servizio-urbano-manfredonia/",
+    "testo": "Urbano di Manfredonia: punti vendita e prezzi"
+   }
+  ],
+  "nota": null
+ },
+ {
+  "nome": "Autolinee F.lli Blanco",
+  "ids": [
+   "72"
+  ],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "0836 541211",
+    "per": null
+   },
+   {
+    "numero": "368 3162475",
+    "per": null
+   }
+  ],
+  "tel": "0836 541211",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autolinee F.lli Blanco Lucia Daniela & C",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Borman",
+  "ids": [
+   "17"
+  ],
+  "sito": "https://www.autoserviziborman.com/",
+  "telefoni": [
+   {
+    "numero": "0833 908065",
+    "per": null
+   }
+  ],
+  "tel": "0833 908065",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autoservizi Borman",
+  "pv": {
+   "url": "https://www.autoserviziborman.com/biglietterie.html",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.autoserviziborman.com/tariffe.html",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Bucci & Tarantini",
+  "ids": [
+   "56",
+   "74"
+  ],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "080 8724146",
+    "per": null
+   }
+  ],
+  "tel": "080 8724146",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autoservizi Bucci & Tarantini S.a.s. di Bucci Pino e C.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Caponio Francesco (Autolinee Caponio)",
+  "ids": [
+   "58"
+  ],
+  "sito": "https://www.caponioviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "080 3022886",
+    "per": null
+   }
+  ],
+  "tel": "080 3022886",
+  "prima": null,
+  "unisci": false,
+  "mc": "Caponio Francesco",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Centra",
+  "ids": [
+   "76"
+  ],
+  "sito": "https://www.centraviaggievacanze.it/",
+  "telefoni": [
+   {
+    "numero": "0882 457910",
+    "per": null
+   }
+  ],
+  "tel": "0882 457910",
+  "prima": null,
+  "unisci": false,
+  "mc": "Centra S.r.l.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Chiarelli Viaggi",
+  "ids": [
+   "53"
+  ],
+  "sito": "https://www.autonoleggiochiarelli.com/",
+  "telefoni": [
+   {
+    "numero": "080 4743316",
+    "per": null
+   }
+  ],
+  "tel": "080 4743316",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Chiffi",
+  "ids": [
+   "19"
+  ],
+  "sito": "https://www.chiffibus.it/",
+  "telefoni": [
+   {
+    "numero": "0833 873378",
+    "per": null
+   }
+  ],
+  "tel": "0833 873378",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autoservizi Chiffi",
+  "pv": {
+   "url": "https://www.chiffibus.it/wp-content/uploads/2024/06/punti-vendita-chiffi-bari.pdf",
+   "testo": "Punti vendita della linea Gallipoli – Bari (PDF)"
+  },
+  "tt": {
+   "url": "https://www.chiffibus.it/wp-content/uploads/2024/05/Carta-dei-Servizi-2024-1.pdf",
+   "testo": "Carta dei servizi, con i titoli di viaggio (PDF)"
+  },
+  "extra": [],
+  "nota": "altre linee"
+ },
+ {
+  "nome": "Autoservizi Chiriatti",
+  "ids": [
+   "18"
+  ],
+  "sito": "https://chiriattiviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "0836 818007",
+    "per": null
+   }
+  ],
+  "tel": "0836 818007",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autoservizi Chiriatti",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Ciccimarra Sante & Figli",
+  "ids": [
+   "54"
+  ],
+  "sito": "https://www.ciccimarrasanteviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "080 4448960",
+    "per": null
+   }
+  ],
+  "tel": "080 4448960",
+  "prima": null,
+  "unisci": false,
+  "mc": "Ciccimarra Sante & Figli",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Conca",
+  "ids": [
+   "71"
+  ],
+  "sito": "https://www.conca.it/",
+  "telefoni": [
+   {
+    "numero": "080 3237309",
+    "per": null
+   }
+  ],
+  "tel": "080 3237309",
+  "prima": "A bordo e online:",
+  "unisci": false,
+  "mc": "Autoservizi Conca Michele & C.",
+  "pv": {
+   "url": "https://www.conca.it/",
+   "testo": "come comprare"
+  },
+  "tt": {
+   "url": "https://www.conca.it/#prices",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "CTP Taranto",
+  "ids": [
+   "5"
+  ],
+  "sito": "https://ctptaranto.it/",
+  "telefoni": [
+   {
+    "numero": "800 230 083",
+    "per": null
+   }
+  ],
+  "tel": "800 230 083",
+  "prima": null,
+  "unisci": false,
+  "mc": "C.T.P.",
+  "pv": {
+   "url": "https://ctptaranto.it/#rivendite",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://ctptaranto.it/biglietti-e-abbonamenti/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Dover Autolinee – Vi.Mi. Viaggi",
+  "ids": [
+   "61"
+  ],
+  "sito": "https://www.vimiviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "080 4972767",
+    "per": null
+   }
+  ],
+  "tel": "080 4972767",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": {
+   "url": "https://www.vimiviaggi.it/14/Linee-Regionali.html",
+   "testo": "Punti vendita della linea Monopoli – Putignano"
+  },
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Elios Autolinee",
+  "ids": [
+   "13"
+  ],
+  "sito": "https://www.eliosautoservizi.com/",
+  "telefoni": [
+   {
+    "numero": "0832 871153",
+    "per": null
+   }
+  ],
+  "tel": "0832 871153",
+  "prima": null,
+  "unisci": false,
+  "mc": "Elios Autolinee",
+  "pv": {
+   "url": "https://www.eliosautoservizi.com/biglietterie-2/",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.eliosautoservizi.com/tickets/",
+   "testo": "Titoli di viaggio"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Ferrovie del Gargano",
+  "ids": [
+   "6"
+  ],
+  "sito": "https://ferroviedelgargano.com/",
+  "telefoni": [
+   {
+    "numero": "0882 228960",
+    "per": null
+   }
+  ],
+  "tel": "0882 228960",
+  "prima": null,
+  "unisci": false,
+  "mc": "Ferrovie Del Gargano",
+  "pv": {
+   "url": "https://ferroviedelgargano.com/#punti-vendita",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://ferroviedelgargano.com/viaggia-con-noi/tariffe/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Fini Viaggi",
+  "ids": [
+   "55"
+  ],
+  "sito": "https://www.finiviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "0882 276713",
+    "per": null
+   }
+  ],
+  "tel": "0882 276713",
+  "prima": null,
+  "unisci": false,
+  "mc": "Fini Viaggi",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Gravame Palmieri",
+  "ids": [
+   "64"
+  ],
+  "sito": "https://www.gravame.it/",
+  "telefoni": [
+   {
+    "numero": "099 5664114",
+    "per": null
+   }
+  ],
+  "tel": "099 5664114",
+  "prima": null,
+  "unisci": false,
+  "mc": "Gravame Palmieri & C.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Kyma Mobilità",
+  "ids": [],
+  "sito": "https://www.kymamobilita.it/",
+  "telefoni": [
+   {
+    "numero": "099 7795527",
+    "per": null
+   }
+  ],
+  "tel": "099 7795527",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": {
+   "url": "https://www.kymamobilita.it/rivendite/",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.kymamobilita.it/tariffe-autobus/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Lentini",
+  "ids": [
+   "67"
+  ],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "080 9306860",
+    "per": null
+   }
+  ],
+  "tel": "080 9306860",
+  "prima": null,
+  "unisci": false,
+  "mc": "LENTINI S.N.C.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autolinee Lorusso",
+  "ids": [],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "080 4312460",
+    "per": null
+   }
+  ],
+  "tel": "080 4312460",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autolinee Lorusso S.r.l.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Lovanio",
+  "ids": [],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "080 4770138",
+    "per": null
+   }
+  ],
+  "tel": "080 4770138",
+  "prima": null,
+  "unisci": false,
+  "mc": "Lovanio",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autolinee Marino Michele (MarinoBus Urbano)",
+  "ids": [],
+  "sito": "https://marinobusurbano.it/",
+  "telefoni": [
+   {
+    "numero": "080 3112335",
+    "per": null
+   }
+  ],
+  "tel": "080 3112335",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": {
+   "url": "https://marinobusurbano.it/#dove-acquistare",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://marinobusurbano.it/wp-content/uploads/2026/05/MarinoBus_Urbano_Tariffario-trasporto-Extra-Urbano_07-05-2026.pdf",
+   "testo": "Titoli e prezzi (PDF)"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autolinee Mastrorocco",
+  "ids": [
+   "60"
+  ],
+  "sito": "https://www.mastroroccoviaggi.it/",
+  "telefoni": [
+   {
+    "numero": "080 759322",
+    "per": null
+   }
+  ],
+  "tel": "080 759322",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autolinee Mastrorocco Donato",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Metauro Bus",
+  "ids": [
+   "9"
+  ],
+  "sito": "https://metaurobus.it/",
+  "telefoni": [
+   {
+    "numero": "0881 981100",
+    "per": null
+   }
+  ],
+  "tel": "0881 981100",
+  "prima": null,
+  "unisci": false,
+  "mc": "Metauro Bus",
+  "pv": {
+   "url": "https://metaurobus.it/biglietterie",
+   "testo": "Punti vendita"
+  },
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Miccolis",
+  "ids": [
+   "23"
+  ],
+  "sito": "https://www.busmiccolis.it/",
+  "telefoni": [
+   {
+    "numero": "080 5315334",
+    "per": null
+   }
+  ],
+  "tel": "080 5315334",
+  "prima": null,
+  "unisci": false,
+  "mc": "Miccolis",
+  "pv": {
+   "url": "https://www.busmiccolis.it/rivendite-linee-extraurbane-2/",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.busmiccolis.it/tariffe-linee-extraurbane/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autolinee Roberto & Dongiovanni",
+  "ids": [
+   "66"
+  ],
+  "sito": "https://www.autolineedongiovanni.it/",
+  "telefoni": [
+   {
+    "numero": "080 4977614",
+    "per": null
+   }
+  ],
+  "tel": "080 4977614",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autolinee Roberto & Dongiovanni S.r.l.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Sabato Viaggi",
+  "ids": [
+   "8"
+  ],
+  "sito": "https://www.grupposabato.it/",
+  "telefoni": [
+   {
+    "numero": "080 9646047",
+    "per": null
+   }
+  ],
+  "tel": "080 9646047",
+  "prima": null,
+  "unisci": false,
+  "mc": "Sabato Viaggi di Sabato Michele",
+  "pv": {
+   "url": "https://www.grupposabato.it/orari-tpl/",
+   "testo": "Punti vendita della linea Gioia del Colle – Miulli"
+  },
+  "tt": null,
+  "extra": [],
+  "nota": "altre linee"
+ },
+ {
+  "nome": "Paolo Scoppio & Figlio",
+  "ids": [
+   "59"
+  ],
+  "sito": "https://www.grupposabato.it/",
+  "telefoni": [
+   {
+    "numero": "080 3482816",
+    "per": null
+   }
+  ],
+  "tel": "080 3482816",
+  "prima": null,
+  "unisci": false,
+  "mc": "Paolo Scoppio & Figlio Autolinee",
+  "pv": {
+   "url": "https://www.grupposabato.it/orari-tpl/",
+   "testo": "Punti vendita della linea Gioia del Colle – Miulli"
+  },
+  "tt": null,
+  "extra": [],
+  "nota": "altre linee"
+ },
+ {
+  "nome": "S.E.A.T.",
+  "ids": [
+   "14"
+  ],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "0833 544917",
+    "per": null
+   }
+  ],
+  "tel": "0833 544917",
+  "prima": null,
+  "unisci": false,
+  "mc": "S.E.A.T.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Sita Sud",
+  "ids": [
+   "1",
+   "15",
+   "16"
+  ],
+  "sito": "https://sitasudtrasporti.it/puglia/",
+  "telefoni": [
+   {
+    "numero": "080 5790211",
+    "per": "Bari"
+   },
+   {
+    "numero": "0881 352011",
+    "per": "Foggia"
+   }
+  ],
+  "tel": "080 5790211",
+  "prima": null,
+  "unisci": false,
+  "mc": "Sita Sud s.r.l.",
+  "pv": {
+   "url": "https://sitasudtrasporti.it/puglia/biglietterie/",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://sitasudtrasporti.it/puglia/biglietti-e-abbonamenti",
+   "testo": "Titoli di viaggio"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "S.T.P. Bari",
+  "ids": [
+   "10"
+  ],
+  "sito": "https://www.stpspa.it/",
+  "telefoni": [
+   {
+    "numero": "080 8807981",
+    "per": null
+   }
+  ],
+  "tel": "080 8807981",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": {
+   "url": "https://www.stpspa.it/wp-content/uploads/2026/06/003_Elenco-agenzie-convenzionate_2026.pdf",
+   "testo": "Punti vendita (PDF)"
+  },
+  "tt": {
+   "url": "https://www.stpspa.it/wp-content/uploads/2026/09/Tariffario-04.2026.pdf",
+   "testo": "Titoli e prezzi (PDF)"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "S.T.P. Brindisi",
+  "ids": [
+   "11"
+  ],
+  "sito": "https://www.stpbrindisi.it/",
+  "telefoni": [
+   {
+    "numero": "800 232 042",
+    "per": "da fisso"
+   },
+   {
+    "numero": "840 000 575",
+    "per": "da cellulare"
+   }
+  ],
+  "tel": "800 232 042",
+  "prima": null,
+  "unisci": false,
+  "mc": "S.T.P. Brindisi S.p.A.",
+  "pv": {
+   "url": "https://www.stpbrindisi.it/index.php/biglietti-e-abbonamenti/rivendite-autorizzate",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.stpbrindisi.it/index.php/biglietti-e-abbonamenti/tariffe",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "S.T.P. Terra d’Otranto",
+  "ids": [
+   "12"
+  ],
+  "sito": "https://www.stplecce.it/",
+  "telefoni": [
+   {
+    "numero": "0832 224411",
+    "per": null
+   },
+   {
+    "numero": "0832 224451",
+    "per": "titoli gratuiti per persone con disabilità"
+   },
+   {
+    "numero": "0832 224452",
+    "per": "titoli gratuiti per persone con disabilità"
+   }
+  ],
+  "tel": "0832 224411",
+  "prima": null,
+  "unisci": false,
+  "mc": "S.T.P. di Terra d’Otranto",
+  "pv": {
+   "url": "https://www.stplecce.it/it/index.php?option=com_content&view=article&id=56&Itemid=119",
+   "testo": "Punti vendita"
+  },
+  "tt": {
+   "url": "https://www.stplecce.it/it/index.php?option=com_content&view=article&id=55&Itemid=118",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi F.lli Tarantini",
+  "ids": [],
+  "sito": "https://www.restaviaggi.com/",
+  "telefoni": [
+   {
+    "numero": "080 8984723",
+    "per": null
+   }
+  ],
+  "tel": "080 8984723",
+  "prima": null,
+  "unisci": false,
+  "mc": null,
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Tempesta",
+  "ids": [
+   "22"
+  ],
+  "sito": "https://www.autoservizitempesta.it/",
+  "telefoni": [
+   {
+    "numero": "080 5219172",
+    "per": null
+   }
+  ],
+  "tel": "080 5219172",
+  "prima": "A bordo e online:",
+  "unisci": true,
+  "mc": null,
+  "pv": {
+   "url": "https://www.autoservizitempesta.it/_wp_/orari-shuttle-bus/",
+   "testo": "titoli e prezzi sul sito del vettore"
+  },
+  "tt": {
+   "url": "https://www.autoservizitempesta.it/_wp_/orari-shuttle-bus/",
+   "testo": "Titoli e prezzi"
+  },
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Tommasulo",
+  "ids": [
+   "20"
+  ],
+  "sito": "https://www.tommasulo.it/autoservizi/",
+  "telefoni": [
+   {
+    "numero": "0881 967106",
+    "per": null
+   }
+  ],
+  "tel": "0881 967106",
+  "prima": null,
+  "unisci": false,
+  "mc": "Autoservizi Tommasulo S.r.l.",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Autoservizi Topputo Vito",
+  "ids": [
+   "70"
+  ],
+  "sito": "https://www.topputo.com/",
+  "telefoni": [
+   {
+    "numero": "080 3253410",
+    "per": null
+   }
+  ],
+  "tel": "080 3253410",
+  "prima": null,
+  "unisci": false,
+  "mc": "Topputo Vito",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ },
+ {
+  "nome": "Zecca Pietro",
+  "ids": [
+   "62"
+  ],
+  "sito": null,
+  "telefoni": [
+   {
+    "numero": "0832 925051",
+    "per": null
+   }
+  ],
+  "tel": "0832 925051",
+  "prima": null,
+  "unisci": false,
+  "mc": "Zecca Pietro",
+  "pv": null,
+  "tt": null,
+  "extra": [],
+  "nota": null
+ }
+]
