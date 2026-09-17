@@ -1,0 +1,125 @@
+/* Proposte per i siti COTRAP, SITA Sud e Marozzi */
+:root{
+  --oliva:#757A43; --oliva-scuro:#4F532B; --oliva-chiaro:#EEF0E1;
+  --inchiostro:#1E2019; --testo:#2B2D25; --grigio:#5E6055; --linea:#D9DBC9;
+  --fondo:#F4F4EE; --carta:#FFFFFF;
+  --rosso:#B42318; --rosso-fondo:#FDEDEB; --rosso-linea:#F1B8B0;
+  --verde:#2E6B34; --verde-fondo:#E8F3E8; --verde-linea:#A9D3AC;
+  --sita:#1F4E9A; --marozzi:#A11D2B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fondo);color:var(--testo);font:19px/1.6 Lato,"Segoe UI",Arial,sans-serif}
+a{color:var(--oliva-scuro)}
+h1,h2,h3{color:var(--inchiostro);line-height:1.2;text-wrap:balance}
+button{font:inherit}
+
+/* testata */
+.testata{background:var(--oliva);color:#fff}
+.testata .dentro{max-width:1400px;margin:0 auto;padding:12px 40px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.marchio{color:#fff;text-decoration:none;font-weight:900;font-size:21px}
+.menu{display:flex;gap:6px;flex-wrap:wrap}
+.menu a{color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:6px 14px;border-radius:20px;border:2px solid rgba(255,255,255,.4)}
+.menu a:hover{background:rgba(255,255,255,.15)}
+.menu a.attivo{background:#fff;color:var(--inchiostro);border-color:#fff}
+.menu .n{opacity:.75;margin-right:5px}
+
+main{max-width:1400px;margin:0 auto;padding:30px 40px 90px}
+.briciole{font-size:16px;color:var(--grigio);margin:0 0 18px}
+
+/* home */
+.apertura{padding:26px 0 30px}
+.apertura h1{font-size:48px;margin:0 0 10px;font-weight:900}
+.apertura p{font-size:23px;margin:0;color:var(--grigio)}
+.percorso{list-style:none;margin:0;padding:0;position:relative}
+.percorso::before{content:"";position:absolute;left:34px;top:30px;bottom:30px;width:4px;background:var(--linea);border-radius:2px}
+.tappa{position:relative;margin:0 0 18px}
+.tappa>a{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:24px;align-items:center;background:var(--carta);border:2px solid var(--linea);border-radius:14px;padding:22px 26px 22px 0;text-decoration:none;color:var(--testo)}
+.tappa>a:hover{border-color:var(--oliva);box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.tappa .numero{justify-self:center;display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:50%;background:var(--oliva);color:#fff;font-weight:900;font-size:24px;position:relative;z-index:1;margin-left:10px}
+.tappa h2{margin:0 0 8px;font-size:28px}
+.tappa p{margin:0 0 4px}
+.tappa .azione{white-space:nowrap;font-weight:900;color:var(--oliva-scuro);padding:12px 20px;border:2px solid var(--oliva);border-radius:26px}
+.tappa>a:hover .azione{background:var(--oliva);color:#fff}
+.etichetta-oggi,.etichetta-domani{display:inline-block;font-size:14px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;border-radius:5px;padding:1px 8px;margin-right:8px;vertical-align:1px}
+.etichetta-oggi{background:var(--rosso-fondo);color:var(--rosso)}
+.etichetta-domani{background:var(--verde-fondo);color:var(--verde)}
+
+/* pagina di una proposta */
+.titolo-proposta{margin:0 0 24px}
+.titolo-proposta .sopra{margin:0 0 4px;font-size:15px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--oliva-scuro)}
+.titolo-proposta h1{margin:0 0 8px;font-size:44px;font-weight:900}
+.titolo-proposta .obiettivo{margin:0;font-size:22px;color:var(--grigio);max-width:70ch}
+.confronto{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:0 0 30px}
+.confronto>div{border-radius:14px;padding:20px 24px;background:var(--carta)}
+.confronto h2{margin:0 0 10px;font-size:22px}
+.confronto ul{margin:0;padding-left:22px}
+.confronto li{margin:0 0 8px}
+.confronto .oggi{border:2px solid var(--rosso-linea)}
+.confronto .oggi h2{color:var(--rosso)}
+.confronto .domani{border:2px solid var(--verde-linea)}
+.confronto .domani h2{color:var(--verde)}
+.sezione{background:var(--carta);border:1px solid var(--linea);border-radius:14px;padding:26px 30px;margin:0 0 26px}
+.sezione>h2{margin:0 0 6px;font-size:30px}
+.sezione>.sotto{margin:0 0 20px;color:var(--grigio)}
+.numeri{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.numeri div{background:var(--oliva-chiaro);border-radius:12px;padding:16px 18px}
+.numeri b{display:block;font-size:34px;font-weight:900;color:var(--oliva-scuro);line-height:1.1}
+.serve ul{margin:0;padding-left:22px}
+.serve li{margin:0 0 8px}
+.avanti{display:flex;justify-content:space-between;gap:12px;margin:30px 0 0}
+.avanti a{display:inline-block;background:var(--carta);border:2px solid var(--oliva);border-radius:26px;padding:10px 22px;font-weight:900;text-decoration:none;color:var(--inchiostro)}
+.avanti a:hover{background:var(--oliva);color:#fff}
+table.tabella{border-collapse:collapse;width:100%;font-size:17px}
+.tabella th,.tabella td{border:1px solid var(--linea);padding:10px 12px;text-align:left;vertical-align:top}
+.tabella th{background:#F0F1E7}
+.tab-scroll{overflow-x:auto}
+.rosso{color:var(--rosso);font-weight:700}
+.pv-link{background:none;border:0;padding:0;color:var(--oliva-scuro);text-decoration:underline;cursor:pointer;font-weight:700}
+
+/* finestra del browser che contiene la prova */
+.browser{border:1px solid #C9CBB8;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.browser .barra{display:flex;align-items:center;gap:14px;background:#ECEDE6;border-bottom:1px solid #D5D7C6;padding:9px 14px}
+.browser .pallini{display:flex;gap:6px}
+.browser .pallini i{display:block;width:12px;height:12px;border-radius:50%;background:#C9CBB8}
+.browser .indirizzo{flex:1;background:#fff;border-radius:18px;padding:4px 14px;font-size:15px;color:var(--grigio)}
+.browser .schermo{padding:28px 32px}
+.schede-siti{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.schede-siti button{border:2px solid var(--linea);background:var(--carta);border-radius:24px;padding:9px 18px;font-weight:900;cursor:pointer;color:var(--inchiostro)}
+.schede-siti button[aria-selected=true]{background:var(--inchiostro);color:#fff;border-color:var(--inchiostro)}
+
+/* resoconto dei controlli */
+.email{border:1px solid #C9CBB8;border-radius:12px;background:#fff;overflow:hidden}
+.email .intest{background:#F3F4EC;border-bottom:1px solid #D9DBC9;padding:14px 22px;font-size:17px}
+.email .intest p{margin:0 0 2px}
+.email .corpo{padding:18px 22px}
+.email details{border-top:1px solid #E6E7DA;padding:10px 0}
+.email details:first-of-type{border-top:0}
+.email summary{cursor:pointer;font-weight:900;font-size:20px}
+.email summary .conta{display:inline-block;min-width:34px;text-align:center;border-radius:14px;background:var(--rosso-fondo);color:var(--rosso);padding:0 8px;margin-left:8px;font-size:16px}
+.email summary .conta.ok{background:var(--verde-fondo);color:var(--verde)}
+.email ul{margin:8px 0 4px;padding-left:22px}
+.email li{margin:0 0 6px}
+
+/* elenco delle pagine */
+.pagine-griglia{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.pagina-scheda{display:block;background:var(--carta);border:2px solid var(--linea);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--testo)}
+.pagina-scheda:hover{border-color:var(--oliva);box-shadow:0 6px 18px rgba(0,0,0,.07)}
+.pagina-scheda h3{margin:0 0 6px;font-size:22px}
+.pagina-scheda p{margin:0 0 4px;font-size:17px}
+.pagina-scheda .conti{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.pagina-scheda .conti span{font-size:15px;font-weight:900;border-radius:14px;padding:2px 10px}
+.pagina-scheda .c-err{background:var(--rosso-fondo);color:var(--rosso)}
+.pagina-scheda .c-mod{background:var(--verde-fondo);color:var(--verde)}
+.pagina-scheda .apri{display:inline-block;margin-top:10px;font-weight:900;color:var(--oliva-scuro)}
+
+@media (max-width:980px){
+  main{padding:22px 18px 70px}
+  .testata .dentro{padding:12px 18px}
+  .confronto,.numeri{grid-template-columns:1fr}
+  .tappa>a{grid-template-columns:60px minmax(0,1fr);padding-right:18px}
+  .tappa .azione{grid-column:2;justify-self:start}
+  .percorso::before{left:28px}
+  .apertura h1{font-size:34px}.titolo-proposta h1{font-size:34px}
+  .browser .schermo{padding:18px}
+}
