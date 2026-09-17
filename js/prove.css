@@ -1,0 +1,357 @@
+/* Moduli di prova: stile dei moduli dei siti */
+.pv{--oliva:#757A43;--oliva-scuro:#4F532B;--grigio:#5E6055}
+.pv [hidden]{display:none!important}
+.pv{font-family:Lato,"Segoe UI",Arial,sans-serif;color:#2B2D25}
+.pv .pv-griglia{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:36px;align-items:start}
+.pv .pv-griglia>div,.pv .pv-due>div{min-width:0}
+.pv .pv-titolo{margin:0 0 16px;font-size:26px;font-weight:400}
+.pv-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media (min-width:992px){.site-header .header-action{right:calc((100vw - 100%)/-2)!important}}
+.pv .pv-passo{margin:0 0 6px;font-size:14px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;color:var(--grigio)}
+.pv .pv-campo{margin:0 0 16px;border:0;padding:0;min-width:0}
+.pv .pv-campo>label,.pv .pv-campo>legend{display:block;margin:0 0 5px;font-weight:700}
+.pv .pv-campo>legend{float:none;width:auto;padding:0;font-size:inherit;line-height:inherit}
+.pv .pv-campo>.pv-spunta{margin:0 0 4px}
+.pv input[type=text],.pv input[type=email],.pv input[type=tel],.pv input[type=date],.pv input[type=time],.pv select,.pv textarea{width:100%;max-width:100%;min-width:0;box-sizing:border-box;font:inherit;padding:9px 11px;border:2px solid var(--accento,#757A43);border-radius:4px;background:#fff;color:#2B2D25}
+.pv select:disabled{border-color:#C9CBB8;background:#F4F4EE;color:#8A8C80}
+.pv textarea{min-height:110px}
+.pv input[type=file]{font-size:16px;width:100%;max-width:100%}
+.pv .pv-radio{display:flex;gap:22px;flex-wrap:wrap}
+.pv .pv-radio label,.pv .pv-spunta{display:flex;align-items:center;gap:8px;font-weight:400;margin:0}
+.pv input[type=radio],.pv input[type=checkbox]{width:20px;height:20px;flex:none;accent-color:var(--accento,#757A43)}
+.pv .pv-spunta{align-items:flex-start}
+.pv .pv-spunta input{margin-top:4px}
+.pv input:focus-visible,.pv select:focus-visible,.pv textarea:focus-visible,.pv button:focus-visible,.pv a:focus-visible{outline:3px solid var(--accento,#4F532B);outline-offset:3px}
+.pv .pv-corsa-extra{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}
+.pv .pv-corsa-gruppo{min-width:0;padding:16px 16px 2px;border:1px solid #D9DBCB;border-radius:12px;background:#FAFBF5}
+.pv .pv-corsa-gruppo .pv-campo>label{font-size:15px;font-weight:900;color:#3F4136}
+.pv .pv-campo input[type=search]+select{margin-top:8px}
+.pv .pv-citta-esito{display:block;font-size:13px;color:#525747;margin-top:5px;min-height:0}
+.pv .pv-corsa-gruppo select,.pv .pv-corsa-extra>div:last-child select{min-height:46px;border-radius:8px}
+.pv .pv-corsa-extra>div:last-child{grid-column:1/-1}
+.pv .pv-corsa-extra select:focus-visible{outline:3px solid var(--accento,#4F532B);outline-offset:2px}
+@media (max-width:700px){.pv .pv-corsa-extra{grid-template-columns:minmax(0,1fr);gap:10px}.pv .pv-corsa-extra>div:last-child{grid-column:auto}}
+.pv .pv-due{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.pv .pv-nota{margin:0 0 14px;background:#F6F6EF;border-left:5px solid var(--accento,#757A43);padding:10px 14px;border-radius:0 6px 6px 0}
+.pv .pv-regole{margin:0 0 16px;background:#FFF6E0;border:1px solid #F0D48A;border-radius:8px;padding:12px 16px}
+.pv .pv-regole b{display:block;margin:0 0 4px}
+.pv .pv-informativa{margin:0 0 14px;padding:10px 14px;border:1px solid #D9DBC9;border-radius:8px;font-size:14px;line-height:1.45;color:#3F4136}
+.pv .pv-informativa p{margin:4px 0 0}
+.pv .pv-invia{display:inline-block;background:var(--accento,#757A43);color:#fff;border:0;border-radius:24px;padding:11px 30px;font-weight:900;cursor:pointer}
+.pv .pv-invia:hover{filter:brightness(.92)}
+.pv .pv-piccolo{font-size:15px;color:var(--grigio);margin:8px 0 0}
+.pv .pv-attesa{border:2px dashed #C9CBB8;border-radius:10px;padding:18px 22px;color:var(--grigio)}
+.pv .pv-esito{border:2px solid var(--accento,#757A43);border-radius:10px;padding:18px 22px;background:#F8F9F2}
+.pv .pv-esito h3{margin:0 0 4px;font-size:15px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;color:var(--grigio)}
+.pv .pv-esito .pv-nome{margin:0 0 10px;font-size:24px;font-weight:900;color:#1E2019}
+.pv .pv-esito .pv-blocco{margin:0 0 16px}
+.pv .pv-esito .pv-blocco:last-child{margin:0}
+.pv .pv-recapiti{list-style:none;padding:0;margin:6px 0 0}
+.pv .pv-recapiti li{margin:0 0 3px}
+.pv .pv-recapiti .pv-sede{font-weight:700;margin-top:8px}
+.pv .pv-scelte{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 0}
+.pv .pv-scelte button{border:2px solid var(--accento,#757A43);background:#fff;border-radius:22px;padding:8px 16px;font-weight:900;cursor:pointer;color:#1E2019}
+.pv .pv-scelte button:hover{background:var(--accento,#757A43);color:#fff}
+.pv .pv-conferma{border:2px solid #2E6B34;background:#E8F3E8;border-radius:10px;padding:20px 24px}
+.pv .pv-conferma h3{margin:0 0 6px;color:#2E6B34;font-size:24px}
+.pv .pv-biglietti{border:1px solid #D9DBC9;border-radius:8px;padding:12px 14px;margin:0 0 12px}
+.pv .pv-link{background:none;border:0;padding:0;color:var(--oliva-scuro);text-decoration:underline;cursor:pointer;font-weight:700}
+.pv-sita{--accento:#1F4E9A}
+.pv-marozzi{--accento:#A11D2B}
+
+@media (max-width:980px){.pv .pv-griglia,.pv .pv-due{grid-template-columns:minmax(0,1fr)}}
+.pv-avviso{position:fixed;left:50%;bottom:84px;transform:translate(-50%,16px);opacity:0;pointer-events:none;background:#1E2019;color:#fff;padding:10px 18px;border-radius:22px;font:700 15px/1.3 Lato,Arial,sans-serif;z-index:100001;box-shadow:0 8px 24px rgba(0,0,0,.3);transition:opacity .2s,transform .2s}
+.pv-avviso.pv-avviso-su{opacity:1;transform:translate(-50%,0)}
+.pv-guida{max-width:640px;margin:14px 0 22px;padding:18px;border:1px solid #D9DBCB;border-radius:12px;background:#FAFBF5}
+.pv-guida .pv-esito{margin-top:14px}
+
+/* Elenco dei vettori della pagina Titoli di viaggio: si apre con un clic, solo sito e telefono */
+.pv-vettori{--oliva:#757A43;--oliva-scuro:#4F532B;margin:20px 0 26px;border:2px solid var(--oliva);border-radius:14px;background:#FAFBF5;overflow:hidden;font-family:Lato,"Segoe UI",Arial,sans-serif}
+.pv-vettori [hidden]{display:none!important}
+.pv-vettori>summary{list-style:none;display:flex;align-items:center;gap:16px;padding:16px 22px;background:var(--oliva);color:#fff;cursor:pointer;user-select:none}
+.pv-vettori>summary::-webkit-details-marker{display:none}
+.pv-vettori>summary,.pv-vettori>summary *{color:#fff!important}
+.pv-vettori>summary:hover{background:#666B39}
+.pv-vettori>summary:focus-visible{outline:3px solid #F0D48A;outline-offset:-5px}
+.pv-vettori-icona{font-size:28px;width:34px;text-align:center;flex:none}
+.pv-vettori-testo{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+.pv-vettori-testo strong{font-size:21px;font-weight:900}
+.pv-vettori-testo small{font-size:15px;opacity:.92}
+.pv-vettori-freccia{flex:none;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-size:16px;transition:transform .2s}
+.pv-vettori[open] .pv-vettori-freccia{transform:rotate(180deg)}
+.pv-vettori-corpo{padding:20px 22px 18px}
+.pv-vettori-ricerca{position:relative;max-width:440px;margin:0 0 18px}
+.pv-vettori-ricerca i{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--oliva);pointer-events:none}
+.pv-vettori-ricerca input{width:100%;font:inherit;font-size:16px;padding:10px 14px 10px 42px;border:2px solid var(--oliva);border-radius:24px;background:#fff;color:#2B2D25}
+.pv-vettori-ricerca input:focus{outline:3px solid #D9DCB8;outline-offset:1px}
+.pv-vettori-elenco{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(270px,100%),1fr));gap:12px}
+.pv-vettori-elenco li{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin:0;padding:14px 16px;background:#fff;border:1px solid #DFE1D0;border-left:4px solid var(--oliva);border-radius:10px}
+.pv-vettori-elenco li strong{font-size:17px;font-weight:900;line-height:1.3;color:#1E2019;margin:0 0 3px}
+.pv-vettori-elenco a{display:inline-flex;align-items:center;gap:9px;max-width:100%;font-weight:700;text-decoration:none;overflow-wrap:anywhere}
+.pv-vettori-elenco a[href^="tel:"]{white-space:nowrap;flex-wrap:wrap;column-gap:9px;row-gap:0}
+.pv-vettori-elenco a:hover{text-decoration:underline}
+.pv-vettori-elenco a i{flex:none;width:16px;text-align:center;font-size:14px;color:var(--oliva)}
+.pv-vettori-elenco a span{font-weight:400!important;color:#5E6055!important}
+.pv-vettori-nessuno{margin:6px 0 0;font-weight:700}
+.pv-vettori-nota{margin:18px 0 0;font-size:15px;color:#5E6055}
+@media (max-width:420px){.pv-vettori-icona{display:none}}
+@media (max-width:600px){.pv-vettori>summary{padding:14px 16px;gap:12px}.pv-vettori-icona{font-size:24px;width:28px}.pv-vettori-testo strong{font-size:18px}.pv-vettori-testo small{font-size:14px}.pv-vettori-corpo{padding:16px 12px 14px}}
+
+/* CSS aggiuntivo proposto per cotrap.it: sul telefono il testo usa quasi tutta la larghezza (oggi 266 px su 390)
+   e chi arriva da un collegamento a una sezione vede il titolo, non coperto dall'intestazione fissa */
+@media (max-width:576px){.container#page{padding:16px 12px!important}}
+.container#page [id]{scroll-margin-top:160px}
+
+/* Collegamento in evidenza verso un'altra pagina (Titoli di viaggio → Aziende consorziate) */
+.pv-vai{--oliva:#757A43;display:flex;align-items:center;gap:16px;margin:20px 0 26px;padding:16px 22px;border-radius:14px;background:var(--oliva);text-decoration:none!important;font-family:Lato,"Segoe UI",Arial,sans-serif}
+.pv-vai,.pv-vai *{color:#fff!important}
+.pv-vai:hover{background:#666B39}
+.pv-vai:hover strong{text-decoration:underline}
+.pv-vai:focus-visible{outline:3px solid #F0D48A;outline-offset:2px}
+@media (max-width:600px){.pv-vai{padding:14px 16px;gap:12px}}
+
+/* Aziende consorziate: una scheda per vettore, recapiti in vista e il resto in «Tutte le informazioni» */
+.pv-aziende{--oliva:#757A43;--oliva-scuro:#4F532B;margin:22px 0 30px;font-family:Lato,"Segoe UI",Arial,sans-serif}
+.pv-aziende [hidden]{display:none!important}
+.pv-aziende .pv-aziende-ricerca{max-width:520px;margin:0 0 10px}
+.pv-aziende-conta{margin:0 0 14px!important;font-size:15px;color:#5E6055}
+.pv-aziende-elenco{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:14px;align-items:start}
+.pv-az{margin:0!important;padding:16px 18px 10px;background:#fff;border:1px solid #DFE1D0;border-top:4px solid var(--oliva);border-radius:12px;scroll-margin-top:170px}
+.pv-az.pv-az-scelta{box-shadow:0 0 0 3px #D9DCB8}
+.pv-az h3{margin:0 0 2px!important;font-size:19px!important;font-weight:900;line-height:1.25;color:#1E2019!important}
+.pv-az-zona{margin:0 0 10px!important;font-size:15px;line-height:1.4;color:#5E6055}
+.pv-az-contatti{list-style:none;margin:0 0 6px!important;padding:0!important;display:flex;flex-direction:column;gap:6px}
+.pv-az-contatti li{margin:0!important;display:flex;align-items:baseline;gap:9px;line-height:1.35}
+.pv-az-contatti i{flex:none;width:16px;text-align:center;font-size:14px;color:var(--oliva)}
+.pv-az-contatti a{font-weight:700;text-decoration:none;overflow-wrap:anywhere}
+.pv-az-contatti a[href^="tel:"]{white-space:nowrap}
+.pv-az-contatti a:hover{text-decoration:underline}
+.pv-az-contatti span{color:#5E6055;font-size:15px}
+.pv-az-altro{margin:6px -18px 0;border-top:1px solid #ECEDE3}
+.pv-az-altro>summary{list-style:none;display:flex;align-items:center;gap:10px;padding:10px 18px 2px;font-weight:700;color:var(--oliva-scuro);cursor:pointer}
+.pv-az-altro>summary::-webkit-details-marker{display:none}
+.pv-az-altro>summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2px solid var(--oliva);border-bottom:2px solid var(--oliva);transform:rotate(45deg);transition:transform .2s}
+.pv-az-altro[open]>summary::after{transform:rotate(-135deg)}
+.pv-az-altro>summary:hover{color:#1E2019}
+.pv-az-altro>summary:focus-visible{outline:3px solid #D9DCB8;outline-offset:2px}
+.pv-az-dati{padding:8px 18px 6px}
+.pv-az-dati h4{margin:12px 0 4px!important;font-size:13px!important;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--oliva-scuro)!important}
+.pv-az-dati h4:first-child{margin-top:4px!important}
+.pv-az-dati ul{margin:0 0 4px!important;padding-left:18px!important}
+.pv-az-dati li{margin:0 0 3px!important;line-height:1.45}
+.pv-az-dati p{margin:0 0 4px!important;line-height:1.45}
+.pv-az-dati a{font-weight:700;overflow-wrap:anywhere}
+.pv-az-dati .pv-az-piccolo{font-size:14px;color:#5E6055}
+.pv-aziende-nessuno{margin:10px 0 0!important;font-weight:700}
+.pv-az-voci{display:grid;grid-template-columns:minmax(118px,34%) 1fr;gap:6px 14px;margin:10px 0 4px!important;font-size:15px;line-height:1.4}
+.pv-az-voci dt{margin:0;font-weight:700;color:#5E6055}
+.pv-az-voci dd{margin:0!important;min-width:0;overflow-wrap:anywhere;color:#1E2019}
+.pv-az-voci dd a{font-weight:700}
+.pv-az-voci dd span{color:#5E6055}
+.pv-az-voci .pv-az-no{color:#9A9C90}
+.pv-az-voci dt,.pv-az-voci dd{padding:0 0 6px;border-bottom:1px solid #F0F1EA}
+@media (max-width:420px){.pv-az-voci{grid-template-columns:1fr;gap:0}.pv-az-voci dt{padding:6px 0 0;border:0}}
+@media (max-width:600px){.pv-az{padding:14px 14px 8px}.pv-az-altro{margin:6px -14px 0}.pv-az-altro>summary{padding:10px 14px 2px}.pv-az-dati{padding:8px 14px 6px}}
+
+/* Domande frequenti (pagina Contatti e modulo): la risposta prima di scrivere */
+.pv .pv-dom{border:1px solid #DFE1D0;border-radius:10px;background:#fff;margin:0 0 8px}
+.pv .pv-dom[open]{border-color:var(--oliva)}
+.pv .pv-dom>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:12px 16px;font-weight:700;color:#1E2019;line-height:1.35}
+.pv .pv-dom>summary::-webkit-details-marker{display:none}
+.pv .pv-dom>summary::after{content:"";flex:none;margin-left:auto;width:8px;height:8px;border-right:2px solid var(--oliva);border-bottom:2px solid var(--oliva);transform:rotate(45deg);transition:transform .2s}
+.pv .pv-dom[open]>summary::after{transform:rotate(-135deg)}
+.pv .pv-dom>summary:hover{color:var(--oliva-scuro)}
+.pv .pv-dom>div{padding:0 16px 14px;line-height:1.55}
+.pv .pv-dom>div a{font-weight:700}
+.pv-domande{margin:4px 0 30px}
+.pv-domande .pv-domande-cerca input{width:100%;font:inherit;font-size:18px;padding:14px 18px 14px 50px;border:2px solid var(--oliva);border-radius:30px;color:#2B2D25;
+  background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23757A43' stroke-width='2.5' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E") no-repeat 17px center/22px 22px}
+.pv-domande .pv-domande-cerca input:focus{outline:3px solid #D9DCB8;outline-offset:1px}
+.pv-domande .pv-domande-temi{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
+.pv-domande .pv-domande-temi button{border:1px solid #C9CBB8;background:#fff;border-radius:20px;padding:6px 14px;font:inherit;font-size:15px;color:#2B2D25;cursor:pointer}
+.pv-domande .pv-domande-temi button:hover{border-color:var(--oliva)}
+.pv-domande .pv-domande-temi button[aria-pressed="true"]{background:var(--oliva);border-color:var(--oliva);color:#fff;font-weight:700}
+.pv-domande .pv-domande-sotto{margin:0 0 8px;font-size:14px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;color:var(--grigio)}
+.pv-domande .pv-domande-nessuna{margin:0 0 8px;font-weight:700}
+.pv-domande .pv-domande-fine{margin:14px 0 0}
+.pv .pv-suggerite{margin:0 0 18px;padding:12px 14px 6px;background:#F6F6EF;border-radius:10px}
+.pv .pv-suggerite .pv-passo{margin-bottom:8px}
+@media (max-width:600px){.pv-domande .pv-domande-temi{flex-wrap:nowrap;overflow-x:auto;padding:0 0 6px;scrollbar-width:thin}.pv-domande .pv-domande-temi button{flex:none;white-space:nowrap}.pv-domande .pv-domande-cerca input{font-size:16px;padding-left:46px;background-position:15px center}}
+
+/* Pagina Contatti: 1 argomento → 2 risposta → 3 scrivici */
+.pv-assistenza{margin:6px 0 34px}
+.pv-assistenza .pv-passi{list-style:none;display:flex;gap:8px;margin:0 0 22px;padding:0}
+.pv-assistenza .pv-passi li{flex:1;margin:0}
+.pv-assistenza .pv-passi button{width:100%;display:flex;align-items:center;gap:8px;border:0;border-bottom:3px solid #DFE1D0;background:none;padding:6px 2px 9px;font:inherit;font-size:15px;color:var(--grigio);text-align:left;cursor:pointer}
+.pv-assistenza .pv-passi button span{flex:none;display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:#EEF0DE;color:var(--oliva-scuro);font-weight:900;font-size:14px}
+.pv-assistenza .pv-passi button[aria-current="step"]{border-bottom-color:var(--oliva);color:#1E2019;font-weight:700}
+.pv-assistenza .pv-passi button[aria-current="step"] span{background:var(--oliva);color:#fff}
+.pv-assistenza .pv-passi button:disabled{cursor:default;opacity:.55}
+.pv-assistenza .pv-assist-titolo{margin:0 0 14px;font-size:24px;font-weight:400;color:#2B2D25;outline:none}
+.pv-assistenza .pv-argomenti{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 24px}
+.pv-assistenza .pv-argomenti button{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:12px;min-height:98px;padding:14px 16px;border:1px solid #DFE1D0;border-radius:12px;background:#fff;font:inherit;font-weight:700;color:#1E2019;text-align:left;cursor:pointer;line-height:1.3;transition:border-color .15s,background .15s}
+.pv-assistenza .pv-argomenti button i{font-size:22px;color:var(--oliva)}
+.pv-assistenza .pv-argomenti button:hover,.pv-assistenza .pv-argomenti button:focus-visible{border-color:var(--oliva);background:#FAFBF5}
+.pv-assistenza .pv-assist-cerca label{display:block;margin:0 0 6px;font-weight:700}
+.pv-assistenza .pv-assist-riga{display:flex;gap:10px;align-items:stretch}
+.pv-assistenza .pv-assist-riga .pv-domande-cerca{flex:1;min-width:0}
+.pv-assistenza .pv-assist-riga .pv-invia{flex:none}
+.pv-assistenza .pv-indietro{display:inline-block;margin:0 0 12px}
+.pv-assistenza .pv-decidi{margin:18px 0 0;padding:16px 18px;border-radius:12px;background:#F6F6EF;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.pv-assistenza .pv-decidi-domanda{margin:0;font-weight:900;font-size:18px}
+.pv-assistenza .pv-decidi-bottoni{display:flex;gap:10px;flex-wrap:wrap}
+.pv .pv-invia.pv-secondario{background:#fff;color:var(--oliva-scuro);border:2px solid var(--accento,#757A43);padding:9px 26px}
+.pv-assistenza .pv-assist-richiesta{margin:-6px 0 16px;color:var(--grigio);font-weight:700}
+.pv-assistenza .pv-conferma{margin-top:18px}
+@media (max-width:760px){.pv-assistenza .pv-argomenti{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.pv-assistenza .pv-passi button{font-size:13px;gap:5px}.pv-assistenza .pv-argomenti button{min-height:86px;padding:12px}.pv-assistenza .pv-assist-riga{flex-direction:column}.pv-assistenza .pv-decidi{flex-direction:column;align-items:flex-start}}
+
+/* Questionario online dei vettori e risposte */
+.pv-questionario .pv-q-link{max-width:520px}
+.pv-questionario .pv-q-intro{margin:6px 0 16px;font-size:17px}
+.pv-q-pannello{margin:0 0 10px;border:1px solid #DFE1D0;border-radius:12px;background:#fff;overflow:hidden}
+.pv-q-pannello[open]{border-color:var(--oliva,#757A43)}
+.pv-q-pannello>summary{display:flex;align-items:center;gap:10px;padding:13px 16px;list-style:none;cursor:pointer;line-height:1.25;color:#1E2019}
+.pv-q-pannello>summary::-webkit-details-marker{display:none}
+.pv-q-pannello>summary:hover{background:#FAFBF5}
+.pv-q-pannello>summary:focus-visible{outline:3px solid #D9DCB8;outline-offset:-3px}
+.pv-q-pannello>summary::after{content:"";width:8px;height:8px;flex:none;border-right:2px solid var(--oliva,#757A43);border-bottom:2px solid var(--oliva,#757A43);transform:rotate(45deg);margin-left:auto}
+.pv-q-pannello[open]>summary::after{transform:rotate(-135deg)}
+.pv-q-lettera{display:grid;place-items:center;width:29px;height:29px;flex:none;border-radius:50%;background:#EEF0E1;color:#4F532B;font-size:14px;font-weight:900}
+.pv-q-pannello>summary strong{font-size:18px}.pv-q-numero{margin-left:auto;color:#5E6055;font-size:14px;white-space:nowrap}
+.pv-q-sezione{border:0;border-top:1px solid #ECEDE3;padding:8px 16px 4px;margin:0}
+.pv-q-voce{padding:10px 0;border-top:1px solid #ECEDE3}
+.pv-q-voce:first-of-type{border-top:0}
+.pv-q-nome{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin:0 0 4px}
+.pv-q-nome span{font-size:14px;color:#5E6055}
+.pv-q-nome em{font-style:normal;font-size:13px;font-weight:700;color:#2E6B34;background:#E8F3E8;border-radius:10px;padding:0 8px}
+.pv-q-abbiamo{margin:0 0 6px!important;padding:6px 10px;background:#F4F4EE;border-radius:6px;font-size:15px;color:#2B2D25;overflow-wrap:anywhere}
+.pv-q-abbiamo.pv-q-vuoto{color:#8A8C80;font-style:italic}
+.pv-q-avviso{color:#B42318;font-weight:700}
+.pv .pv-tab{border-collapse:collapse;width:100%;font-size:16px}
+.pv .pv-tab th,.pv .pv-tab td{border-bottom:1px solid #DFE1D0;padding:8px 10px;text-align:left;vertical-align:top}
+.pv .pv-tab th{background:#F0F1E7}
+.pv .pv-tab tr:has(button[aria-expanded="true"]){background:#F8F9F2}
+.pv-q-azioni{margin:12px 0 0!important}
+.pv-risposta{scroll-margin-top:24px}
+.pv-risposta-dettaglio td{overflow-wrap:anywhere}
+@media (max-width:700px){
+  .pv-risposte .pv-tab,.pv-risposte .pv-tab tbody{display:block}
+  .pv-risposte .pv-tab thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+  .pv-risposte .pv-risposta{display:block;margin-top:12px;padding:10px 12px;border:1px solid #D9DBC9;border-radius:10px;background:#fff}
+  .pv-risposte .pv-risposta:first-child{margin-top:0}
+  .pv-risposte .pv-risposta td{display:grid;grid-template-columns:85px minmax(0,1fr);gap:10px;padding:5px 0;border:0;overflow-wrap:anywhere}
+  .pv-risposte .pv-risposta td::before{content:attr(data-etichetta);font-size:14px;font-weight:700;color:#5E6055}
+  .pv-risposte .pv-risposta-dettaglio{display:block;margin-top:-1px;border:1px solid #D9DBC9;border-radius:0 0 10px 10px;background:#F8F9F2}
+  .pv-risposte .pv-risposta:has(button[aria-expanded="true"]){border-radius:10px 10px 0 0}
+  .pv-risposte .pv-risposta-dettaglio td{display:block;border:0;padding:14px 12px}
+  .pv-risposte .pv-risposta-vuota,.pv-risposte .pv-risposta-vuota td{display:block;padding:0;border:0}
+}
+
+/* moduli di SITA e Marozzi dentro le loro pagine: una colonna */
+.pv-colonna .pv-griglia{grid-template-columns:minmax(0,1fr)!important;gap:18px!important}
+.pv-colonna{margin:0 0 24px}
+
+/* Pagine per i clienti: raffinamenti circoscritti, senza modificare la presentazione. */
+.pv-percorsi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0 28px}
+.pv-percorsi a{display:flex;flex-direction:column;gap:4px;padding:16px;border:1px solid #DFE1D0;border-radius:12px;background:#FAFBF7;color:#34382A;text-decoration:none}
+.pv-percorsi a:hover,.pv-percorsi a:focus-visible{border-color:#757A43;outline:2px solid #D9DCB8;outline-offset:2px}
+.pv-percorsi span{font-size:14px;color:#606454}
+[data-pv-sito="cotrap"] main h2[id]{scroll-margin-top:160px}
+@media(max-width:600px){
+  .pv-percorsi{grid-template-columns:minmax(0,1fr);gap:8px}
+  .pv-percorsi a{padding:12px 16px}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile{display:block;width:100%;border:0!important}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile tbody{display:block}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile tbody tr{display:block;border:1px solid #DFE1D0;border-radius:10px;margin:0 0 14px;padding:8px 12px;background:#FAFBF7}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile tbody td{display:block;border:0!important;border-bottom:1px solid #E8EADF!important;padding:10px 0;background:transparent!important;box-shadow:none!important;white-space:normal;overflow-wrap:anywhere}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile tbody td:last-child{border-bottom:0!important}
+  [data-pv-sito="cotrap"] .pv-tabella-mobile tbody td::before{content:attr(data-etichetta);display:block;margin-bottom:3px;font-weight:700;color:#606454;font-size:14px}
+}
+#pv-aziende-ricerca-inizio .pv-aziende-ricerca{max-width:620px;margin:18px 0 10px;position:relative}
+#pv-aziende-ricerca-inizio .pv-aziende-ricerca>i{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:#757A43;pointer-events:none}
+#pv-aziende-ricerca-inizio input{font-size:16px;min-height:52px;width:100%;border:1px solid #ADB0A4;border-radius:10px;padding:12px 32px 12px 42px;background:#FAFBF7;box-sizing:border-box}
+#pv-aziende-ricerca-inizio input:focus{outline:3px solid #D9DCB8;outline-offset:2px;border-color:#757A43}
+[data-pv-sito="cotrap"] .navbar-toggler:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:700px){
+  [data-pv-sito="cotrap"] #slider{min-height:0!important;padding:24px 12px!important}
+  [data-pv-sito="cotrap"] #slider .mt-5{margin-top:0!important}
+  [data-pv-sito="cotrap"] #slider p:empty{display:none}
+  [data-pv-sito="cotrap"] #homeBoxes{padding:12px 0!important}
+  [data-pv-sito="cotrap"] #homeBoxes li>div{display:grid!important;grid-template-columns:34px minmax(0,1fr);gap:6px 14px;align-items:start!important;text-align:left;padding:16px!important}
+  [data-pv-sito="cotrap"] #homeBoxes li>div>i,[data-pv-sito="cotrap"] #homeBoxes li>div>svg{grid-column:1;grid-row:1 / span 3;font-size:28px!important;width:30px;height:30px}
+  [data-pv-sito="cotrap"] #homeBoxes li>div>i::before{font-size:28px!important;line-height:1!important}
+  [data-pv-sito="cotrap"] #homeBoxes h2{grid-column:2;font-size:23px!important;margin:0!important}
+  [data-pv-sito="cotrap"] #homeBoxes p,[data-pv-sito="cotrap"] #homeBoxes a{grid-column:2;text-align:left!important;margin:0!important}
+  [data-pv-sito="cotrap"] #navbar.show{padding:12px 0 18px}
+  [data-pv-sito="cotrap"] #navbar .nav-link{padding:10px 12px!important;text-align:left;border-bottom:1px solid #ffffff25}
+}
+[data-pv-sito]{--pv-marchio:#757A43;--pv-inchiostro:#2B2D25;--pv-linea:#DFE1D0}
+[data-pv-sito="sita"]{--pv-marchio:#1F4E9A;--pv-linea:#D8E1ED}
+[data-pv-sito="marozzi"]{--pv-marchio:#A11D2B;--pv-linea:#E9DADC}
+[data-pv-sito] .pv{line-height:1.55}
+[data-pv-sito] .pv input:not([type=radio]):not([type=checkbox]):not([type=file]),
+[data-pv-sito] .pv select,[data-pv-sito] .pv textarea{border:1px solid #ADB0A4;border-radius:9px;padding:12px 14px;min-height:48px;box-shadow:0 1px 2px #00000005}
+[data-pv-sito] .pv select:disabled{border-color:#DDE0D7;color:#686C60;background:#F4F5F1}
+[data-pv-sito] .pv .pv-campo{margin-bottom:20px}
+[data-pv-sito] .pv .pv-campo>label{font-size:15px;margin-bottom:7px}
+[data-pv-sito] .pv .pv-invia{border-radius:9px;min-height:48px;padding:12px 24px;font-size:16px}
+[data-pv-sito] .pv .pv-invia.pv-secondario{padding:10px 22px}
+[data-pv-sito] .pv .pv-esito{border:1px solid var(--pv-linea);border-top:4px solid var(--pv-marchio);background:#FAFBF8;padding:22px;border-radius:12px}
+[data-pv-sito] .pv .pv-attesa{border:1px dashed #B8BCAE;background:#FAFBF8}
+[data-pv-sito] .pv .pv-regole{font-size:15px;line-height:1.5}
+[data-pv-sito] .pv .pv-nota{border-left-width:3px;line-height:1.5}
+.pv-icona-tema{width:27px;height:27px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;color:var(--oliva)}
+[data-pv-sito="cotrap"] #page .content{line-height:1.65}
+[data-pv-sito="cotrap"] #page .entry-title{font-size:clamp(30px,4vw,42px);line-height:1.15;font-weight:700;margin-bottom:18px;color:#34382A}
+[data-pv-sito="cotrap"] #page .breadcrumb-container{font-size:14px;color:#606454}
+[data-pv-sito="cotrap"] #page hr{height:3px;margin:0 0 22px}
+[data-pv-sito="cotrap"] #page .content p{max-width:76ch}
+[data-pv-sito="cotrap"] #page .content a{overflow-wrap:anywhere}
+[data-pv-sito="cotrap"] .pv-assistenza .pv-argomenti button{min-height:106px;gap:14px;padding:18px;border-radius:12px;background:#FAFBF7;transition:background .15s,border-color .15s,box-shadow .15s}
+[data-pv-sito="cotrap"] .pv-assistenza .pv-argomenti button:hover{background:#F0F2E6;border-color:#757A43;box-shadow:0 3px 12px #34382A0D}
+[data-pv-sito="cotrap"] .pv-assistenza .pv-assist-titolo{font-weight:700;font-size:25px}
+[data-pv-sito="cotrap"] #page ul.contatti{padding:22px!important;background:#F6F7F0;border:1px solid #E0E3D4;border-radius:14px}
+[data-pv-sito="cotrap"] #page ul.contatti li{margin-bottom:18px;overflow-wrap:anywhere}
+[data-pv-sito="cotrap"] .pv-az{padding-top:20px;box-shadow:0 3px 14px #34382A06}
+[data-pv-sito="cotrap"] .pv-az h3{font-size:21px!important;margin-bottom:12px!important}
+[data-pv-sito="cotrap"] .pv-az-voci{line-height:1.55;gap:8px 14px}
+[data-pv-sito="cotrap"] .pv-az-altro>summary{padding-top:14px;padding-bottom:10px;min-height:44px}
+[data-pv-sito="sita"] #sliderHome{height:190px!important;min-height:0!important;display:flex;align-items:center;background-size:cover!important}
+[data-pv-sito="sita"] #sliderHome>.container-fluid{padding-top:0!important;padding-bottom:0!important;width:100%}
+[data-pv-sito="sita"] #sliderHome h2{font-size:40px!important;margin:0 0 12px!important}
+[data-pv-sito="sita"] #maincontent{padding-top:32px!important;padding-bottom:40px}
+[data-pv-sito="sita"] #maincontent .pv-colonna{background:#FAFCFF;border:1px solid var(--pv-linea);border-radius:14px;padding:24px}
+[data-pv-sito="marozzi"] .main-contact-view{padding-top:110px!important}
+[data-pv-sito="marozzi"] .header-action{left:auto!important;right:0!important}
+[data-pv-sito="marozzi"] .pv-contatti-titolo{max-width:1180px;margin:0 auto 24px;padding:0 24px;font-size:38px;line-height:1.2;color:#353A3F}
+[data-pv-sito="marozzi"] .main-contact-view>.wrap{display:flex;flex-direction:column}
+[data-pv-sito="marozzi"] .contact-block{order:0;padding:28px!important;border-radius:14px;border:1px solid #E2E4E6;margin-bottom:28px!important}
+[data-pv-sito="marozzi"] .contact-block-title{margin-bottom:24px!important}
+[data-pv-sito="marozzi"] .contact-block-title h3{font-size:26px!important;line-height:1.25!important}
+[data-pv-sito="marozzi"] .contact-info{order:1;margin:0 0 32px!important}
+[data-pv-sito="marozzi"] .contact-info-row{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0!important}
+[data-pv-sito="marozzi"] .box-contact-column{width:auto!important;max-width:none!important;padding:0!important;margin:0!important;min-width:0}
+[data-pv-sito="marozzi"] .box-contact-item{width:100%!important;box-sizing:border-box;flex:none!important;height:auto!important;min-height:0!important;padding:20px!important;margin:0!important;border-radius:10px}
+[data-pv-sito="marozzi"] .box-contact-item h3{font-size:19px!important;margin-bottom:10px!important}
+[data-pv-sito="marozzi"] .box-contact-item .email{margin-top:14px!important;overflow-wrap:anywhere}
+[data-pv-sito="marozzi"] .box-contact-item .subtitle h6{font-size:15px!important;line-height:1.5!important}
+[data-pv-sito="marozzi"] .offcanvas-menu{display:none!important}
+[data-pv-sito="marozzi"] .offcanvas-menu.pv-menu-aperto{display:block!important;position:fixed!important;inset:78px 0 0!important;width:100%!important;height:auto!important;transform:none!important;opacity:1!important;visibility:visible!important;z-index:10000;background:#fff;overflow-y:auto;padding:20px 24px 90px;box-sizing:border-box}
+[data-pv-sito="marozzi"] .offcanvas-menu-wrapper{width:100%!important;max-width:700px;margin:0 auto;padding:0!important}
+[data-pv-sito="marozzi"] .offcanvas-menu .nav ul{display:block!important;padding-left:0;list-style:none}
+[data-pv-sito="marozzi"] .offcanvas-menu .nav a{display:block;padding:9px 0;color:#353A3F}
+[data-pv-sito="marozzi"] .offcanvas-menu .nav .sub-menu{padding-left:16px}
+[data-pv-sito="marozzi"] .offcanvas-menu .nav li{margin:0!important;padding:0!important;line-height:1.5!important;min-height:0!important}
+@media(max-width:700px){
+  [data-pv-sito="cotrap"] .pv-assistenza .pv-argomenti button{padding:14px;min-height:102px;font-size:15px}
+  [data-pv-sito="sita"] #sliderHome{height:145px!important}
+  [data-pv-sito="sita"] #sliderHome h2{font-size:32px!important}
+  [data-pv-sito="sita"] #maincontent .pv-colonna{padding:16px}
+  [data-pv-sito="marozzi"] .contact-info-row{grid-template-columns:minmax(0,1fr)}
+  [data-pv-sito="marozzi"] .contact-block{padding:20px!important}
+  [data-pv-sito="marozzi"] .pv-contatti-titolo{font-size:32px;padding:0 20px}
+  [data-pv-sito="marozzi"] .offcanvas-menu.pv-menu-aperto{top:62px!important}
+  [data-pv-sito] .pv .pv-esito{padding:18px}
+}
